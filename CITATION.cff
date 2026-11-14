@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "perturbaudit: internal-control falsification of causal gene networks inferred from Perturb-seq"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Rao
+    given-names: Muhammad Qudduse Ahmad
+    orcid: "https://orcid.org/0009-0001-8731-7080"
+    affiliation: "Independent Researcher, Lahore, Pakistan"
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/mqar96/perturbaudit"

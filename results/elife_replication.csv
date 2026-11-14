@@ -1,0 +1,2099 @@
+library,comparison,gene,strong,replicated,one_only
+dual,split-half (same construct),ACAA1,0,0,0
+dual,split-half (same construct),ACAA1,0,0,0
+dual,split-half (same construct),ACAA1,0,0,0
+dual,"different constructs, same library",ACAA1,0,0,0
+dual,"different constructs, same library",ACAA1,0,0,0
+dual,"different constructs, same library",ACAA1,0,0,0
+dual,split-half (same construct),ACBD6,1,1,0
+dual,split-half (same construct),ACBD6,0,0,0
+dual,split-half (same construct),ACBD6,0,0,0
+dual,"different constructs, same library",ACBD6,1,0,1
+dual,"different constructs, same library",ACBD6,1,0,1
+dual,"different constructs, same library",ACBD6,0,0,0
+dual,split-half (same construct),ADSS,0,0,0
+dual,split-half (same construct),ADSS,0,0,0
+dual,split-half (same construct),ADSS,5,5,0
+dual,"different constructs, same library",ADSS,0,0,0
+dual,"different constructs, same library",ADSS,0,0,0
+dual,"different constructs, same library",ADSS,0,0,0
+dual,split-half (same construct),ALG13,9,8,0
+dual,split-half (same construct),ALG13,1,1,0
+dual,split-half (same construct),ALG13,2,2,0
+dual,"different constructs, same library",ALG13,9,8,1
+dual,"different constructs, same library",ALG13,9,5,2
+dual,"different constructs, same library",ALG13,1,1,0
+dual,split-half (same construct),AMD1,0,0,0
+dual,split-half (same construct),AMD1,0,0,0
+dual,split-half (same construct),AMD1,0,0,0
+dual,"different constructs, same library",AMD1,0,0,0
+dual,"different constructs, same library",AMD1,0,0,0
+dual,"different constructs, same library",AMD1,0,0,0
+dual,split-half (same construct),ATF6B,0,0,0
+dual,split-half (same construct),ATF6B,0,0,0
+dual,split-half (same construct),ATF6B,0,0,0
+dual,"different constructs, same library",ATF6B,0,0,0
+dual,"different constructs, same library",ATF6B,0,0,0
+dual,"different constructs, same library",ATF6B,0,0,0
+dual,split-half (same construct),ATF6,0,0,0
+dual,split-half (same construct),ATF6,0,0,0
+dual,split-half (same construct),ATF6,0,0,0
+dual,"different constructs, same library",ATF6,0,0,0
+dual,"different constructs, same library",ATF6,0,0,0
+dual,"different constructs, same library",ATF6,0,0,0
+dual,split-half (same construct),ATP2B1,0,0,0
+dual,split-half (same construct),ATP2B1,0,0,0
+dual,"different constructs, same library",ATP2B1,0,0,0
+dual,split-half (same construct),BHLHE40,0,0,0
+dual,split-half (same construct),BHLHE40,0,0,0
+dual,split-half (same construct),BHLHE40,0,0,0
+dual,"different constructs, same library",BHLHE40,0,0,0
+dual,"different constructs, same library",BHLHE40,0,0,0
+dual,"different constructs, same library",BHLHE40,0,0,0
+dual,split-half (same construct),BRD2,0,0,0
+dual,split-half (same construct),BRD2,3,3,0
+dual,split-half (same construct),BRD2,5,5,0
+dual,split-half (same construct),BRD2,5,5,0
+dual,split-half (same construct),BRD2,0,0,0
+dual,split-half (same construct),BRD2,1,1,0
+dual,"different constructs, same library",BRD2,0,0,0
+dual,"different constructs, same library",BRD2,0,0,0
+dual,"different constructs, same library",BRD2,0,0,0
+dual,"different constructs, same library",BRD2,0,0,0
+dual,"different constructs, same library",BRD2,0,0,0
+dual,"different constructs, same library",BRD2,3,1,1
+dual,"different constructs, same library",BRD2,3,3,0
+dual,"different constructs, same library",BRD2,3,0,2
+dual,"different constructs, same library",BRD2,3,3,0
+dual,"different constructs, same library",BRD2,5,5,0
+dual,"different constructs, same library",BRD2,5,1,3
+dual,"different constructs, same library",BRD2,5,0,2
+dual,"different constructs, same library",BRD2,5,1,3
+dual,"different constructs, same library",BRD2,5,1,2
+dual,"different constructs, same library",BRD2,0,0,0
+dual,split-half (same construct),CBFB,1,1,0
+dual,split-half (same construct),CBFB,0,0,0
+dual,split-half (same construct),CBFB,3,3,0
+dual,"different constructs, same library",CBFB,1,1,0
+dual,"different constructs, same library",CBFB,1,1,0
+dual,"different constructs, same library",CBFB,0,0,0
+dual,split-half (same construct),CCNH,14,7,4
+dual,split-half (same construct),CCNH,13,12,0
+dual,split-half (same construct),CCNH,12,12,0
+dual,"different constructs, same library",CCNH,14,13,0
+dual,"different constructs, same library",CCNH,14,13,1
+dual,"different constructs, same library",CCNH,13,13,0
+dual,split-half (same construct),CD151,0,0,0
+dual,split-half (same construct),CD151,0,0,0
+dual,"different constructs, same library",CD151,0,0,0
+dual,split-half (same construct),CD2BP2,0,0,0
+dual,split-half (same construct),CINP,2,2,0
+dual,split-half (same construct),CINP,15,14,0
+dual,split-half (same construct),CINP,1,0,1
+dual,"different constructs, same library",CINP,2,2,0
+dual,"different constructs, same library",CINP,2,2,0
+dual,"different constructs, same library",CINP,15,10,3
+dual,split-half (same construct),CIR1,5,4,0
+dual,split-half (same construct),CIR1,0,0,0
+dual,split-half (same construct),CIR1,0,0,0
+dual,"different constructs, same library",CIR1,5,1,2
+dual,"different constructs, same library",CIR1,5,0,4
+dual,"different constructs, same library",CIR1,0,0,0
+dual,split-half (same construct),CISH,0,0,0
+dual,split-half (same construct),CISH,1,1,0
+dual,split-half (same construct),CISH,0,0,0
+dual,"different constructs, same library",CISH,0,0,0
+dual,"different constructs, same library",CISH,0,0,0
+dual,"different constructs, same library",CISH,1,0,1
+dual,split-half (same construct),CLN6,0,0,0
+dual,split-half (same construct),CLN6,0,0,0
+dual,split-half (same construct),CLN6,0,0,0
+dual,"different constructs, same library",CLN6,0,0,0
+dual,"different constructs, same library",CLN6,0,0,0
+dual,"different constructs, same library",CLN6,0,0,0
+dual,split-half (same construct),CNIH4,0,0,0
+dual,split-half (same construct),CNIH4,0,0,0
+dual,split-half (same construct),CNIH4,0,0,0
+dual,"different constructs, same library",CNIH4,0,0,0
+dual,"different constructs, same library",CNIH4,0,0,0
+dual,"different constructs, same library",CNIH4,0,0,0
+dual,split-half (same construct),COX6A1,0,0,0
+dual,split-half (same construct),COX6A1,1,1,0
+dual,split-half (same construct),COX6A1,0,0,0
+dual,"different constructs, same library",COX6A1,0,0,0
+dual,"different constructs, same library",COX6A1,0,0,0
+dual,"different constructs, same library",COX6A1,1,0,0
+dual,split-half (same construct),CREM,0,0,0
+dual,split-half (same construct),CREM,0,0,0
+dual,"different constructs, same library",CREM,0,0,0
+dual,split-half (same construct),CTSB,0,0,0
+dual,split-half (same construct),CTSB,0,0,0
+dual,split-half (same construct),CTSB,0,0,0
+dual,"different constructs, same library",CTSB,0,0,0
+dual,"different constructs, same library",CTSB,0,0,0
+dual,"different constructs, same library",CTSB,0,0,0
+dual,split-half (same construct),CTU2,0,0,0
+dual,split-half (same construct),CTU2,0,0,0
+dual,"different constructs, same library",CTU2,0,0,0
+dual,split-half (same construct),CUL1,1,1,0
+dual,split-half (same construct),CUL1,0,0,0
+dual,split-half (same construct),CUL1,0,0,0
+dual,"different constructs, same library",CUL1,1,1,0
+dual,"different constructs, same library",CUL1,1,0,0
+dual,"different constructs, same library",CUL1,0,0,0
+dual,split-half (same construct),CYB561A3,0,0,0
+dual,split-half (same construct),CYB561A3,0,0,0
+dual,split-half (same construct),CYB561A3,0,0,0
+dual,"different constructs, same library",CYB561A3,0,0,0
+dual,"different constructs, same library",CYB561A3,0,0,0
+dual,"different constructs, same library",CYB561A3,0,0,0
+dual,split-half (same construct),DHCR7,0,0,0
+dual,split-half (same construct),DHCR7,0,0,0
+dual,split-half (same construct),DHCR7,0,0,0
+dual,"different constructs, same library",DHCR7,0,0,0
+dual,"different constructs, same library",DHCR7,0,0,0
+dual,"different constructs, same library",DHCR7,0,0,0
+dual,split-half (same construct),DIMT1,11,11,0
+dual,split-half (same construct),DIMT1,46,45,1
+dual,split-half (same construct),DIMT1,34,34,0
+dual,"different constructs, same library",DIMT1,11,11,0
+dual,"different constructs, same library",DIMT1,11,11,0
+dual,"different constructs, same library",DIMT1,46,46,0
+dual,split-half (same construct),DYNC1I2,0,0,0
+dual,split-half (same construct),EXOSC4,25,24,0
+dual,split-half (same construct),EXOSC4,5,4,0
+dual,split-half (same construct),EXOSC4,0,0,0
+dual,"different constructs, same library",EXOSC4,25,16,4
+dual,"different constructs, same library",EXOSC4,25,8,9
+dual,"different constructs, same library",EXOSC4,5,5,0
+dual,split-half (same construct),EXOSC5,23,23,0
+dual,split-half (same construct),EXOSC5,58,51,2
+dual,"different constructs, same library",EXOSC5,23,21,0
+dual,split-half (same construct),FDFT1,2,2,0
+dual,split-half (same construct),FDFT1,6,6,0
+dual,split-half (same construct),FDFT1,1,1,0
+dual,"different constructs, same library",FDFT1,2,2,0
+dual,"different constructs, same library",FDFT1,2,2,0
+dual,"different constructs, same library",FDFT1,6,6,0
+dual,split-half (same construct),FDX1,0,0,0
+dual,split-half (same construct),FDX1,0,0,0
+dual,split-half (same construct),FDX1,0,0,0
+dual,"different constructs, same library",FDX1,0,0,0
+dual,"different constructs, same library",FDX1,0,0,0
+dual,"different constructs, same library",FDX1,0,0,0
+dual,split-half (same construct),FH,0,0,0
+dual,split-half (same construct),FH,0,0,0
+dual,split-half (same construct),FH,1,1,0
+dual,"different constructs, same library",FH,0,0,0
+dual,"different constructs, same library",FH,0,0,0
+dual,"different constructs, same library",FH,0,0,0
+dual,split-half (same construct),FOXK1,0,0,0
+dual,split-half (same construct),FOXK1,1,1,0
+dual,"different constructs, same library",FOXK1,0,0,0
+dual,split-half (same construct),FOXRED1,0,0,0
+dual,split-half (same construct),FOXRED1,0,0,0
+dual,split-half (same construct),FOXRED1,0,0,0
+dual,"different constructs, same library",FOXRED1,0,0,0
+dual,"different constructs, same library",FOXRED1,0,0,0
+dual,"different constructs, same library",FOXRED1,0,0,0
+dual,split-half (same construct),GTF2H5,0,0,0
+dual,split-half (same construct),GTF2H5,0,0,0
+dual,split-half (same construct),GTF2H5,0,0,0
+dual,"different constructs, same library",GTF2H5,0,0,0
+dual,"different constructs, same library",GTF2H5,0,0,0
+dual,"different constructs, same library",GTF2H5,0,0,0
+dual,split-half (same construct),GYPB,0,0,0
+dual,split-half (same construct),GYPB,1,1,0
+dual,split-half (same construct),GYPB,0,0,0
+dual,"different constructs, same library",GYPB,0,0,0
+dual,"different constructs, same library",GYPB,0,0,0
+dual,"different constructs, same library",GYPB,1,0,0
+dual,split-half (same construct),HIST1H1D,0,0,0
+dual,split-half (same construct),HIST1H1D,0,0,0
+dual,split-half (same construct),HIST1H1D,2,1,0
+dual,"different constructs, same library",HIST1H1D,0,0,0
+dual,"different constructs, same library",HIST1H1D,0,0,0
+dual,"different constructs, same library",HIST1H1D,0,0,0
+dual,split-half (same construct),HIST1H4H,0,0,0
+dual,split-half (same construct),HIST1H4H,0,0,0
+dual,split-half (same construct),HIST1H4H,0,0,0
+dual,"different constructs, same library",HIST1H4H,0,0,0
+dual,"different constructs, same library",HIST1H4H,0,0,0
+dual,"different constructs, same library",HIST1H4H,0,0,0
+dual,split-half (same construct),HMGB2,1,1,0
+dual,split-half (same construct),HMGB2,0,0,0
+dual,split-half (same construct),HMGB2,0,0,0
+dual,"different constructs, same library",HMGB2,1,0,1
+dual,"different constructs, same library",HMGB2,1,0,1
+dual,"different constructs, same library",HMGB2,0,0,0
+dual,split-half (same construct),HSPA5,9,9,0
+dual,split-half (same construct),HSPA5,8,6,1
+dual,split-half (same construct),HSPA5,4,2,1
+dual,"different constructs, same library",HSPA5,9,8,0
+dual,"different constructs, same library",HSPA5,9,3,2
+dual,"different constructs, same library",HSPA5,8,3,2
+dual,split-half (same construct),IDI1,0,0,0
+dual,split-half (same construct),IDI1,0,0,0
+dual,split-half (same construct),IDI1,3,2,0
+dual,"different constructs, same library",IDI1,0,0,0
+dual,"different constructs, same library",IDI1,0,0,0
+dual,"different constructs, same library",IDI1,0,0,0
+dual,split-half (same construct),IGF2BP3,0,0,0
+dual,split-half (same construct),IGF2BP3,0,0,0
+dual,"different constructs, same library",IGF2BP3,0,0,0
+dual,split-half (same construct),IQGAP2,0,0,0
+dual,split-half (same construct),IQGAP2,0,0,0
+dual,split-half (same construct),IQGAP2,0,0,0
+dual,"different constructs, same library",IQGAP2,0,0,0
+dual,"different constructs, same library",IQGAP2,0,0,0
+dual,"different constructs, same library",IQGAP2,0,0,0
+dual,split-half (same construct),KCNH2,0,0,0
+dual,split-half (same construct),KCNH2,0,0,0
+dual,split-half (same construct),KCNH2,0,0,0
+dual,"different constructs, same library",KCNH2,0,0,0
+dual,"different constructs, same library",KCNH2,0,0,0
+dual,"different constructs, same library",KCNH2,0,0,0
+dual,split-half (same construct),KPNA6,1,1,0
+dual,split-half (same construct),KPNA6,0,0,0
+dual,split-half (same construct),KPNA6,0,0,0
+dual,"different constructs, same library",KPNA6,1,0,1
+dual,"different constructs, same library",KPNA6,1,0,1
+dual,"different constructs, same library",KPNA6,0,0,0
+dual,split-half (same construct),KRTCAP2,0,0,0
+dual,split-half (same construct),KRTCAP2,0,0,0
+dual,split-half (same construct),KRTCAP2,0,0,0
+dual,"different constructs, same library",KRTCAP2,0,0,0
+dual,"different constructs, same library",KRTCAP2,0,0,0
+dual,"different constructs, same library",KRTCAP2,0,0,0
+dual,split-half (same construct),KXD1,0,0,0
+dual,split-half (same construct),KXD1,0,0,0
+dual,split-half (same construct),KXD1,1,0,0
+dual,"different constructs, same library",KXD1,0,0,0
+dual,"different constructs, same library",KXD1,0,0,0
+dual,"different constructs, same library",KXD1,0,0,0
+dual,split-half (same construct),LAMTOR1,2,1,0
+dual,split-half (same construct),LAMTOR1,0,0,0
+dual,split-half (same construct),LAMTOR1,0,0,0
+dual,"different constructs, same library",LAMTOR1,2,0,1
+dual,"different constructs, same library",LAMTOR1,2,1,1
+dual,"different constructs, same library",LAMTOR1,0,0,0
+dual,split-half (same construct),MAK16,4,3,0
+dual,split-half (same construct),MAK16,4,3,1
+dual,split-half (same construct),MAK16,5,5,0
+dual,"different constructs, same library",MAK16,4,3,1
+dual,"different constructs, same library",MAK16,4,4,0
+dual,"different constructs, same library",MAK16,4,4,0
+dual,split-half (same construct),MAPK14,0,0,0
+dual,split-half (same construct),MAPK14,0,0,0
+dual,split-half (same construct),MAPK14,0,0,0
+dual,"different constructs, same library",MAPK14,0,0,0
+dual,"different constructs, same library",MAPK14,0,0,0
+dual,"different constructs, same library",MAPK14,0,0,0
+dual,split-half (same construct),MAPKAPK2,0,0,0
+dual,split-half (same construct),MAPKAPK2,1,1,0
+dual,split-half (same construct),MAPKAPK2,0,0,0
+dual,"different constructs, same library",MAPKAPK2,0,0,0
+dual,"different constructs, same library",MAPKAPK2,0,0,0
+dual,"different constructs, same library",MAPKAPK2,1,0,0
+dual,split-half (same construct),MCM2,4,3,1
+dual,split-half (same construct),MCM2,16,16,0
+dual,"different constructs, same library",MCM2,4,3,1
+dual,split-half (same construct),MITD1,0,0,0
+dual,split-half (same construct),MITD1,0,0,0
+dual,split-half (same construct),MITD1,0,0,0
+dual,"different constructs, same library",MITD1,0,0,0
+dual,"different constructs, same library",MITD1,0,0,0
+dual,"different constructs, same library",MITD1,0,0,0
+dual,split-half (same construct),MRPL37,2,1,0
+dual,split-half (same construct),MRPL37,5,4,1
+dual,split-half (same construct),MRPL37,5,5,0
+dual,"different constructs, same library",MRPL37,2,2,0
+dual,"different constructs, same library",MRPL37,2,1,0
+dual,"different constructs, same library",MRPL37,5,4,0
+dual,split-half (same construct),MRPS18A,14,14,0
+dual,split-half (same construct),MRPS18A,2,2,0
+dual,split-half (same construct),MRPS18A,5,5,0
+dual,"different constructs, same library",MRPS18A,14,11,0
+dual,"different constructs, same library",MRPS18A,14,13,0
+dual,"different constructs, same library",MRPS18A,2,2,0
+dual,split-half (same construct),MSN,0,0,0
+dual,split-half (same construct),MSN,0,0,0
+dual,split-half (same construct),MSN,0,0,0
+dual,"different constructs, same library",MSN,0,0,0
+dual,"different constructs, same library",MSN,0,0,0
+dual,"different constructs, same library",MSN,0,0,0
+dual,split-half (same construct),MTA1,1,1,0
+dual,split-half (same construct),MTA1,0,0,0
+dual,"different constructs, same library",MTA1,1,0,0
+dual,split-half (same construct),NDFIP1,0,0,0
+dual,split-half (same construct),NDFIP1,0,0,0
+dual,split-half (same construct),NDFIP1,0,0,0
+dual,"different constructs, same library",NDFIP1,0,0,0
+dual,"different constructs, same library",NDFIP1,0,0,0
+dual,"different constructs, same library",NDFIP1,0,0,0
+dual,split-half (same construct),NIPSNAP3A,0,0,0
+dual,split-half (same construct),NIPSNAP3A,0,0,0
+dual,split-half (same construct),NIPSNAP3A,0,0,0
+dual,"different constructs, same library",NIPSNAP3A,0,0,0
+dual,"different constructs, same library",NIPSNAP3A,0,0,0
+dual,"different constructs, same library",NIPSNAP3A,0,0,0
+dual,split-half (same construct),NKTR,0,0,0
+dual,split-half (same construct),NKTR,0,0,0
+dual,split-half (same construct),NKTR,0,0,0
+dual,"different constructs, same library",NKTR,0,0,0
+dual,"different constructs, same library",NKTR,0,0,0
+dual,"different constructs, same library",NKTR,0,0,0
+dual,split-half (same construct),NQO1,0,0,0
+dual,split-half (same construct),NQO1,0,0,0
+dual,split-half (same construct),NQO1,0,0,0
+dual,"different constructs, same library",NQO1,0,0,0
+dual,"different constructs, same library",NQO1,0,0,0
+dual,"different constructs, same library",NQO1,0,0,0
+dual,split-half (same construct),NT5C3A,0,0,0
+dual,split-half (same construct),NT5C3A,1,1,0
+dual,"different constructs, same library",NT5C3A,0,0,0
+dual,split-half (same construct),OGFOD3,0,0,0
+dual,split-half (same construct),OGFOD3,0,0,0
+dual,split-half (same construct),OGFOD3,0,0,0
+dual,"different constructs, same library",OGFOD3,0,0,0
+dual,"different constructs, same library",OGFOD3,0,0,0
+dual,"different constructs, same library",OGFOD3,0,0,0
+dual,split-half (same construct),OLA1,0,0,0
+dual,split-half (same construct),OLA1,0,0,0
+dual,split-half (same construct),OLA1,0,0,0
+dual,"different constructs, same library",OLA1,0,0,0
+dual,"different constructs, same library",OLA1,0,0,0
+dual,"different constructs, same library",OLA1,0,0,0
+dual,split-half (same construct),OSGEP,3,3,0
+dual,split-half (same construct),OSGEP,3,3,0
+dual,split-half (same construct),OSGEP,2,2,0
+dual,"different constructs, same library",OSGEP,3,3,0
+dual,"different constructs, same library",OSGEP,3,3,0
+dual,"different constructs, same library",OSGEP,3,3,0
+dual,split-half (same construct),OST4,0,0,0
+dual,split-half (same construct),OST4,0,0,0
+dual,split-half (same construct),OST4,0,0,0
+dual,"different constructs, same library",OST4,0,0,0
+dual,"different constructs, same library",OST4,0,0,0
+dual,"different constructs, same library",OST4,0,0,0
+dual,split-half (same construct),P4HB,1,1,0
+dual,split-half (same construct),P4HB,0,0,0
+dual,split-half (same construct),P4HB,0,0,0
+dual,"different constructs, same library",P4HB,1,0,1
+dual,"different constructs, same library",P4HB,1,0,1
+dual,"different constructs, same library",P4HB,0,0,0
+dual,split-half (same construct),PCNA,0,0,0
+dual,split-half (same construct),PDCD2,6,6,0
+dual,split-half (same construct),PDCD2,0,0,0
+dual,split-half (same construct),PDCD2,12,12,0
+dual,"different constructs, same library",PDCD2,6,3,3
+dual,"different constructs, same library",PDCD2,6,5,1
+dual,"different constructs, same library",PDCD2,0,0,0
+dual,split-half (same construct),PDLIM2,0,0,0
+dual,split-half (same construct),PDLIM2,0,0,0
+dual,"different constructs, same library",PDLIM2,0,0,0
+dual,split-half (same construct),PDZD11,0,0,0
+dual,split-half (same construct),PDZD11,0,0,0
+dual,split-half (same construct),PDZD11,1,1,0
+dual,"different constructs, same library",PDZD11,0,0,0
+dual,"different constructs, same library",PDZD11,0,0,0
+dual,"different constructs, same library",PDZD11,0,0,0
+dual,split-half (same construct),PET117,33,33,0
+dual,split-half (same construct),PET117,54,54,0
+dual,split-half (same construct),PET117,19,19,0
+dual,"different constructs, same library",PET117,33,33,0
+dual,"different constructs, same library",PET117,33,33,0
+dual,"different constructs, same library",PET117,54,47,2
+dual,split-half (same construct),PIN4,0,0,0
+dual,split-half (same construct),PIN4,0,0,0
+dual,split-half (same construct),PIN4,0,0,0
+dual,"different constructs, same library",PIN4,0,0,0
+dual,"different constructs, same library",PIN4,0,0,0
+dual,"different constructs, same library",PIN4,0,0,0
+dual,split-half (same construct),PITHD1,1,0,0
+dual,split-half (same construct),PITHD1,0,0,0
+dual,split-half (same construct),PITHD1,0,0,0
+dual,"different constructs, same library",PITHD1,1,0,0
+dual,"different constructs, same library",PITHD1,1,0,1
+dual,"different constructs, same library",PITHD1,0,0,0
+dual,split-half (same construct),PMVK,0,0,0
+dual,split-half (same construct),PMVK,4,3,0
+dual,split-half (same construct),PMVK,1,1,0
+dual,"different constructs, same library",PMVK,0,0,0
+dual,"different constructs, same library",PMVK,0,0,0
+dual,"different constructs, same library",PMVK,4,0,2
+dual,split-half (same construct),POLR3GL,0,0,0
+dual,split-half (same construct),POLR3GL,0,0,0
+dual,split-half (same construct),POLR3GL,0,0,0
+dual,"different constructs, same library",POLR3GL,0,0,0
+dual,"different constructs, same library",POLR3GL,0,0,0
+dual,"different constructs, same library",POLR3GL,0,0,0
+dual,split-half (same construct),PPP1R14B,0,0,0
+dual,split-half (same construct),PPP1R14B,0,0,0
+dual,split-half (same construct),PPP1R14B,0,0,0
+dual,"different constructs, same library",PPP1R14B,0,0,0
+dual,"different constructs, same library",PPP1R14B,0,0,0
+dual,"different constructs, same library",PPP1R14B,0,0,0
+dual,split-half (same construct),PPP5C,0,0,0
+dual,split-half (same construct),PPP5C,0,0,0
+dual,split-half (same construct),PPP5C,0,0,0
+dual,"different constructs, same library",PPP5C,0,0,0
+dual,"different constructs, same library",PPP5C,0,0,0
+dual,"different constructs, same library",PPP5C,0,0,0
+dual,split-half (same construct),PRDX6,0,0,0
+dual,split-half (same construct),PRDX6,0,0,0
+dual,split-half (same construct),PRDX6,0,0,0
+dual,"different constructs, same library",PRDX6,0,0,0
+dual,"different constructs, same library",PRDX6,0,0,0
+dual,"different constructs, same library",PRDX6,0,0,0
+dual,split-half (same construct),PRKDC,2,2,0
+dual,split-half (same construct),PRKDC,2,2,0
+dual,split-half (same construct),PRKDC,1,1,0
+dual,"different constructs, same library",PRKDC,2,1,1
+dual,"different constructs, same library",PRKDC,2,1,0
+dual,"different constructs, same library",PRKDC,2,1,1
+dual,split-half (same construct),PRPF6,0,0,0
+dual,split-half (same construct),PRRC2A,0,0,0
+dual,split-half (same construct),PRRC2A,0,0,0
+dual,split-half (same construct),PRRC2A,1,1,0
+dual,"different constructs, same library",PRRC2A,0,0,0
+dual,"different constructs, same library",PRRC2A,0,0,0
+dual,"different constructs, same library",PRRC2A,0,0,0
+dual,split-half (same construct),PSMA3,0,0,0
+dual,split-half (same construct),PSMA3,5,0,2
+dual,"different constructs, same library",PSMA3,0,0,0
+dual,split-half (same construct),PSMC3IP,0,0,0
+dual,split-half (same construct),PSMC3IP,0,0,0
+dual,split-half (same construct),PSMC3IP,0,0,0
+dual,"different constructs, same library",PSMC3IP,0,0,0
+dual,"different constructs, same library",PSMC3IP,0,0,0
+dual,"different constructs, same library",PSMC3IP,0,0,0
+dual,split-half (same construct),PSMD13,26,21,2
+dual,split-half (same construct),PSMD13,3,3,0
+dual,split-half (same construct),PSMD13,1,1,0
+dual,"different constructs, same library",PSMD13,26,15,5
+dual,"different constructs, same library",PSMD13,26,20,4
+dual,"different constructs, same library",PSMD13,3,2,0
+dual,split-half (same construct),PSMD5,0,0,0
+dual,split-half (same construct),PSMD5,0,0,0
+dual,split-half (same construct),PSMD5,0,0,0
+dual,"different constructs, same library",PSMD5,0,0,0
+dual,"different constructs, same library",PSMD5,0,0,0
+dual,"different constructs, same library",PSMD5,0,0,0
+dual,split-half (same construct),PSME1,0,0,0
+dual,split-half (same construct),PSME1,0,0,0
+dual,split-half (same construct),PSME1,0,0,0
+dual,"different constructs, same library",PSME1,0,0,0
+dual,"different constructs, same library",PSME1,0,0,0
+dual,"different constructs, same library",PSME1,0,0,0
+dual,split-half (same construct),PTBP3,1,0,0
+dual,split-half (same construct),PTBP3,1,1,0
+dual,split-half (same construct),PTBP3,0,0,0
+dual,"different constructs, same library",PTBP3,1,0,1
+dual,"different constructs, same library",PTBP3,1,0,0
+dual,"different constructs, same library",PTBP3,1,0,1
+dual,split-half (same construct),PTMA,1,0,1
+dual,split-half (same construct),PTMA,0,0,0
+dual,split-half (same construct),PTMA,0,0,0
+dual,"different constructs, same library",PTMA,1,0,0
+dual,"different constructs, same library",PTMA,1,1,0
+dual,"different constructs, same library",PTMA,0,0,0
+dual,split-half (same construct),RANBP1,0,0,0
+dual,split-half (same construct),RANBP1,0,0,0
+dual,split-half (same construct),RANBP1,1,1,0
+dual,"different constructs, same library",RANBP1,0,0,0
+dual,"different constructs, same library",RANBP1,0,0,0
+dual,"different constructs, same library",RANBP1,0,0,0
+dual,split-half (same construct),RBBP4,0,0,0
+dual,split-half (same construct),RBBP4,2,1,0
+dual,split-half (same construct),RBBP4,0,0,0
+dual,"different constructs, same library",RBBP4,0,0,0
+dual,"different constructs, same library",RBBP4,0,0,0
+dual,"different constructs, same library",RBBP4,2,2,0
+dual,split-half (same construct),RBM22,0,0,0
+dual,split-half (same construct),RHEB,0,0,0
+dual,split-half (same construct),RHEB,1,0,1
+dual,"different constructs, same library",RHEB,0,0,0
+dual,split-half (same construct),RNF187,0,0,0
+dual,split-half (same construct),RNF187,0,0,0
+dual,split-half (same construct),RNF187,0,0,0
+dual,"different constructs, same library",RNF187,0,0,0
+dual,"different constructs, same library",RNF187,0,0,0
+dual,"different constructs, same library",RNF187,0,0,0
+dual,split-half (same construct),RNH1,0,0,0
+dual,split-half (same construct),RNH1,0,0,0
+dual,"different constructs, same library",RNH1,0,0,0
+dual,split-half (same construct),RP9,0,0,0
+dual,split-half (same construct),RP9,0,0,0
+dual,"different constructs, same library",RP9,0,0,0
+dual,split-half (same construct),RPL37,0,0,0
+dual,split-half (same construct),RPL37,0,0,0
+dual,split-half (same construct),RPL37,0,0,0
+dual,"different constructs, same library",RPL37,0,0,0
+dual,"different constructs, same library",RPL37,0,0,0
+dual,"different constructs, same library",RPL37,0,0,0
+dual,split-half (same construct),RPP25L,0,0,0
+dual,split-half (same construct),RPP25L,0,0,0
+dual,split-half (same construct),RPP25L,0,0,0
+dual,"different constructs, same library",RPP25L,0,0,0
+dual,"different constructs, same library",RPP25L,0,0,0
+dual,"different constructs, same library",RPP25L,0,0,0
+dual,split-half (same construct),RPS3,0,0,0
+dual,split-half (same construct),RPS3,0,0,0
+dual,split-half (same construct),RPS3,8,7,1
+dual,"different constructs, same library",RPS3,0,0,0
+dual,"different constructs, same library",RPS3,0,0,0
+dual,"different constructs, same library",RPS3,0,0,0
+dual,split-half (same construct),RPS4X,2,2,0
+dual,split-half (same construct),RPS4X,0,0,0
+dual,split-half (same construct),RPS4X,0,0,0
+dual,"different constructs, same library",RPS4X,2,0,0
+dual,"different constructs, same library",RPS4X,2,2,0
+dual,"different constructs, same library",RPS4X,0,0,0
+dual,split-half (same construct),RRP36,12,10,0
+dual,split-half (same construct),RRP36,2,2,0
+dual,split-half (same construct),RRP36,5,3,0
+dual,"different constructs, same library",RRP36,12,11,0
+dual,"different constructs, same library",RRP36,12,10,1
+dual,"different constructs, same library",RRP36,2,2,0
+dual,split-half (same construct),SDF2L1,1,1,0
+dual,split-half (same construct),SDF2L1,0,0,0
+dual,split-half (same construct),SDF2L1,0,0,0
+dual,"different constructs, same library",SDF2L1,1,0,1
+dual,"different constructs, same library",SDF2L1,1,0,1
+dual,"different constructs, same library",SDF2L1,0,0,0
+dual,split-half (same construct),SEC11A,1,1,0
+dual,split-half (same construct),SEC11A,1,1,0
+dual,split-half (same construct),SEC11A,0,0,0
+dual,"different constructs, same library",SEC11A,1,0,0
+dual,"different constructs, same library",SEC11A,1,1,0
+dual,"different constructs, same library",SEC11A,1,0,1
+dual,split-half (same construct),SEC61B,2,2,0
+dual,split-half (same construct),SEC61B,0,0,0
+dual,split-half (same construct),SEC61B,2,2,0
+dual,"different constructs, same library",SEC61B,2,1,0
+dual,"different constructs, same library",SEC61B,2,2,0
+dual,"different constructs, same library",SEC61B,0,0,0
+dual,split-half (same construct),SHISA5,0,0,0
+dual,split-half (same construct),SHISA5,1,0,1
+dual,split-half (same construct),SHISA5,0,0,0
+dual,"different constructs, same library",SHISA5,0,0,0
+dual,"different constructs, same library",SHISA5,0,0,0
+dual,"different constructs, same library",SHISA5,1,0,1
+dual,split-half (same construct),SLC30A9,1,1,0
+dual,split-half (same construct),SLC30A9,1,1,0
+dual,split-half (same construct),SLC30A9,0,0,0
+dual,"different constructs, same library",SLC30A9,1,1,0
+dual,"different constructs, same library",SLC30A9,1,1,0
+dual,"different constructs, same library",SLC30A9,1,0,1
+dual,split-half (same construct),SLC39A7,1,1,0
+dual,split-half (same construct),SLC39A7,3,3,0
+dual,split-half (same construct),SLC39A7,0,0,0
+dual,"different constructs, same library",SLC39A7,1,0,1
+dual,"different constructs, same library",SLC39A7,1,0,1
+dual,"different constructs, same library",SLC39A7,3,1,1
+dual,split-half (same construct),SLC3A2,0,0,0
+dual,split-half (same construct),SLC3A2,0,0,0
+dual,split-half (same construct),SLC3A2,0,0,0
+dual,"different constructs, same library",SLC3A2,0,0,0
+dual,"different constructs, same library",SLC3A2,0,0,0
+dual,"different constructs, same library",SLC3A2,0,0,0
+dual,split-half (same construct),SMARCB1,0,0,0
+dual,split-half (same construct),SMARCB1,4,4,0
+dual,split-half (same construct),SMARCB1,0,0,0
+dual,"different constructs, same library",SMARCB1,0,0,0
+dual,"different constructs, same library",SMARCB1,0,0,0
+dual,"different constructs, same library",SMARCB1,4,4,0
+dual,split-half (same construct),SNAPC5,0,0,0
+dual,split-half (same construct),SNAPC5,1,1,0
+dual,"different constructs, same library",SNAPC5,0,0,0
+dual,split-half (same construct),SNRPD2,0,0,0
+dual,split-half (same construct),SNX17,0,0,0
+dual,split-half (same construct),SNX17,0,0,0
+dual,split-half (same construct),SNX17,0,0,0
+dual,"different constructs, same library",SNX17,0,0,0
+dual,"different constructs, same library",SNX17,0,0,0
+dual,"different constructs, same library",SNX17,0,0,0
+dual,split-half (same construct),SNX2,0,0,0
+dual,split-half (same construct),SNX2,0,0,0
+dual,split-half (same construct),SNX2,0,0,0
+dual,"different constructs, same library",SNX2,0,0,0
+dual,"different constructs, same library",SNX2,0,0,0
+dual,"different constructs, same library",SNX2,0,0,0
+dual,split-half (same construct),SPATS2,0,0,0
+dual,split-half (same construct),SPATS2,0,0,0
+dual,split-half (same construct),SPATS2,1,1,0
+dual,"different constructs, same library",SPATS2,0,0,0
+dual,"different constructs, same library",SPATS2,0,0,0
+dual,"different constructs, same library",SPATS2,0,0,0
+dual,split-half (same construct),SPCS3,36,30,3
+dual,split-half (same construct),SPCS3,7,7,0
+dual,split-half (same construct),SPCS3,6,6,0
+dual,split-half (same construct),SPCS3,1,1,0
+dual,split-half (same construct),SPCS3,0,0,0
+dual,"different constructs, same library",SPCS3,36,23,3
+dual,"different constructs, same library",SPCS3,36,25,6
+dual,"different constructs, same library",SPCS3,36,0,16
+dual,"different constructs, same library",SPCS3,36,0,31
+dual,"different constructs, same library",SPCS3,7,5,2
+dual,"different constructs, same library",SPCS3,7,0,3
+dual,"different constructs, same library",SPCS3,7,0,6
+dual,"different constructs, same library",SPCS3,6,0,1
+dual,"different constructs, same library",SPCS3,6,0,6
+dual,"different constructs, same library",SPCS3,1,0,1
+dual,split-half (same construct),SRSF11,0,0,0
+dual,split-half (same construct),SRSF11,0,0,0
+dual,split-half (same construct),SRSF11,1,1,0
+dual,"different constructs, same library",SRSF11,0,0,0
+dual,"different constructs, same library",SRSF11,0,0,0
+dual,"different constructs, same library",SRSF11,0,0,0
+dual,split-half (same construct),SSH2,0,0,0
+dual,split-half (same construct),SSH2,0,0,0
+dual,split-half (same construct),SSH2,0,0,0
+dual,"different constructs, same library",SSH2,0,0,0
+dual,"different constructs, same library",SSH2,0,0,0
+dual,"different constructs, same library",SSH2,0,0,0
+dual,split-half (same construct),SUMO3,0,0,0
+dual,split-half (same construct),SUMO3,0,0,0
+dual,"different constructs, same library",SUMO3,0,0,0
+dual,split-half (same construct),SURF4,0,0,0
+dual,split-half (same construct),SURF4,0,0,0
+dual,split-half (same construct),SURF4,0,0,0
+dual,"different constructs, same library",SURF4,0,0,0
+dual,"different constructs, same library",SURF4,0,0,0
+dual,"different constructs, same library",SURF4,0,0,0
+dual,split-half (same construct),TACO1,0,0,0
+dual,split-half (same construct),TACO1,0,0,0
+dual,split-half (same construct),TACO1,0,0,0
+dual,"different constructs, same library",TACO1,0,0,0
+dual,"different constructs, same library",TACO1,0,0,0
+dual,"different constructs, same library",TACO1,0,0,0
+dual,split-half (same construct),TMEM101,0,0,0
+dual,split-half (same construct),TMEM101,0,0,0
+dual,split-half (same construct),TMEM101,0,0,0
+dual,"different constructs, same library",TMEM101,0,0,0
+dual,"different constructs, same library",TMEM101,0,0,0
+dual,"different constructs, same library",TMEM101,0,0,0
+dual,split-half (same construct),TMEM59,0,0,0
+dual,split-half (same construct),TMEM59,0,0,0
+dual,split-half (same construct),TMEM59,0,0,0
+dual,"different constructs, same library",TMEM59,0,0,0
+dual,"different constructs, same library",TMEM59,0,0,0
+dual,"different constructs, same library",TMEM59,0,0,0
+dual,split-half (same construct),TRMT10C,11,7,0
+dual,split-half (same construct),TRMT10C,4,4,0
+dual,split-half (same construct),TRMT10C,20,17,1
+dual,"different constructs, same library",TRMT10C,11,8,1
+dual,"different constructs, same library",TRMT10C,11,9,0
+dual,"different constructs, same library",TRMT10C,4,4,0
+dual,split-half (same construct),TROAP,0,0,0
+dual,split-half (same construct),TROAP,0,0,0
+dual,split-half (same construct),TROAP,0,0,0
+dual,"different constructs, same library",TROAP,0,0,0
+dual,"different constructs, same library",TROAP,0,0,0
+dual,"different constructs, same library",TROAP,0,0,0
+dual,split-half (same construct),TSSC4,0,0,0
+dual,split-half (same construct),TSSC4,0,0,0
+dual,split-half (same construct),TSSC4,0,0,0
+dual,"different constructs, same library",TSSC4,0,0,0
+dual,"different constructs, same library",TSSC4,0,0,0
+dual,"different constructs, same library",TSSC4,0,0,0
+dual,split-half (same construct),TUBA1B,0,0,0
+dual,split-half (same construct),TUBA1B,0,0,0
+dual,split-half (same construct),TUBA1B,0,0,0
+dual,"different constructs, same library",TUBA1B,0,0,0
+dual,"different constructs, same library",TUBA1B,0,0,0
+dual,"different constructs, same library",TUBA1B,0,0,0
+dual,split-half (same construct),UBE2J1,0,0,0
+dual,split-half (same construct),UBE2J1,0,0,0
+dual,split-half (same construct),UBE2J1,0,0,0
+dual,"different constructs, same library",UBE2J1,0,0,0
+dual,"different constructs, same library",UBE2J1,0,0,0
+dual,"different constructs, same library",UBE2J1,0,0,0
+dual,split-half (same construct),USP47,0,0,0
+dual,split-half (same construct),USP47,0,0,0
+dual,split-half (same construct),USP47,0,0,0
+dual,"different constructs, same library",USP47,0,0,0
+dual,"different constructs, same library",USP47,0,0,0
+dual,"different constructs, same library",USP47,0,0,0
+dual,split-half (same construct),USP7,0,0,0
+dual,split-half (same construct),USP7,0,0,0
+dual,split-half (same construct),USP7,0,0,0
+dual,"different constructs, same library",USP7,0,0,0
+dual,"different constructs, same library",USP7,0,0,0
+dual,"different constructs, same library",USP7,0,0,0
+dual,split-half (same construct),VCL,0,0,0
+dual,split-half (same construct),VCL,0,0,0
+dual,split-half (same construct),VCL,2,2,0
+dual,"different constructs, same library",VCL,0,0,0
+dual,"different constructs, same library",VCL,0,0,0
+dual,"different constructs, same library",VCL,0,0,0
+dual,split-half (same construct),VMP1,0,0,0
+dual,split-half (same construct),VMP1,2,1,1
+dual,"different constructs, same library",VMP1,0,0,0
+dual,split-half (same construct),WBP2,0,0,0
+dual,split-half (same construct),WBP2,0,0,0
+dual,split-half (same construct),WBP2,0,0,0
+dual,"different constructs, same library",WBP2,0,0,0
+dual,"different constructs, same library",WBP2,0,0,0
+dual,"different constructs, same library",WBP2,0,0,0
+dual,split-half (same construct),XBP1,0,0,0
+dual,split-half (same construct),XBP1,0,0,0
+dual,split-half (same construct),XBP1,0,0,0
+dual,"different constructs, same library",XBP1,0,0,0
+dual,"different constructs, same library",XBP1,0,0,0
+dual,"different constructs, same library",XBP1,0,0,0
+dual,split-half (same construct),YARS,0,0,0
+dual,split-half (same construct),YARS,0,0,0
+dual,split-half (same construct),YARS,0,0,0
+dual,"different constructs, same library",YARS,0,0,0
+dual,"different constructs, same library",YARS,0,0,0
+dual,"different constructs, same library",YARS,0,0,0
+dual,split-half (same construct),YBEY,0,0,0
+dual,split-half (same construct),YBEY,1,0,0
+dual,split-half (same construct),YBEY,0,0,0
+dual,"different constructs, same library",YBEY,0,0,0
+dual,"different constructs, same library",YBEY,0,0,0
+dual,"different constructs, same library",YBEY,1,0,0
+dual,split-half (same construct),ZFAND6,0,0,0
+dual,split-half (same construct),ZFAND6,0,0,0
+dual,split-half (same construct),ZFAND6,0,0,0
+dual,"different constructs, same library",ZFAND6,0,0,0
+dual,"different constructs, same library",ZFAND6,0,0,0
+dual,"different constructs, same library",ZFAND6,0,0,0
+dual,split-half (same construct),ZKSCAN1,0,0,0
+dual,split-half (same construct),ZKSCAN1,0,0,0
+dual,split-half (same construct),ZKSCAN1,0,0,0
+dual,"different constructs, same library",ZKSCAN1,0,0,0
+dual,"different constructs, same library",ZKSCAN1,0,0,0
+dual,"different constructs, same library",ZKSCAN1,0,0,0
+dual,split-half (same construct),ZNF451,0,0,0
+dual,split-half (same construct),ZNF451,0,0,0
+dual,split-half (same construct),ZNF451,1,1,0
+dual,"different constructs, same library",ZNF451,0,0,0
+dual,"different constructs, same library",ZNF451,0,0,0
+dual,"different constructs, same library",ZNF451,0,0,0
+dual,split-half (same construct),ZNF672,0,0,0
+dual,split-half (same construct),ZNF672,0,0,0
+dual,split-half (same construct),ZNF672,0,0,0
+dual,"different constructs, same library",ZNF672,0,0,0
+dual,"different constructs, same library",ZNF672,0,0,0
+dual,"different constructs, same library",ZNF672,0,0,0
+dolcetto,split-half (same construct),ACAA1,0,0,0
+dolcetto,split-half (same construct),ACAA1,0,0,0
+dolcetto,split-half (same construct),ACAA1,0,0,0
+dolcetto,"different constructs, same library",ACAA1,0,0,0
+dolcetto,"different constructs, same library",ACAA1,0,0,0
+dolcetto,"different constructs, same library",ACAA1,0,0,0
+dolcetto,split-half (same construct),ACBD6,0,0,0
+dolcetto,split-half (same construct),ACBD6,0,0,0
+dolcetto,"different constructs, same library",ACBD6,0,0,0
+dolcetto,split-half (same construct),ADSS,0,0,0
+dolcetto,split-half (same construct),ADSS,0,0,0
+dolcetto,split-half (same construct),ADSS,0,0,0
+dolcetto,"different constructs, same library",ADSS,0,0,0
+dolcetto,"different constructs, same library",ADSS,0,0,0
+dolcetto,"different constructs, same library",ADSS,0,0,0
+dolcetto,split-half (same construct),ALG13,0,0,0
+dolcetto,split-half (same construct),ALG13,0,0,0
+dolcetto,"different constructs, same library",ALG13,0,0,0
+dolcetto,split-half (same construct),ATF6B,0,0,0
+dolcetto,split-half (same construct),ATF6B,0,0,0
+dolcetto,split-half (same construct),ATF6B,0,0,0
+dolcetto,"different constructs, same library",ATF6B,0,0,0
+dolcetto,"different constructs, same library",ATF6B,0,0,0
+dolcetto,"different constructs, same library",ATF6B,0,0,0
+dolcetto,split-half (same construct),ATF6,0,0,0
+dolcetto,split-half (same construct),ATF6,0,0,0
+dolcetto,split-half (same construct),ATF6,0,0,0
+dolcetto,"different constructs, same library",ATF6,0,0,0
+dolcetto,"different constructs, same library",ATF6,0,0,0
+dolcetto,"different constructs, same library",ATF6,0,0,0
+dolcetto,split-half (same construct),ATP2B1,0,0,0
+dolcetto,split-half (same construct),BHLHE40,0,0,0
+dolcetto,split-half (same construct),BHLHE40,1,0,0
+dolcetto,"different constructs, same library",BHLHE40,0,0,0
+dolcetto,split-half (same construct),CBFB,0,0,0
+dolcetto,split-half (same construct),CCM2,0,0,0
+dolcetto,split-half (same construct),CCNH,0,0,0
+dolcetto,split-half (same construct),CCNH,0,0,0
+dolcetto,split-half (same construct),CCNH,0,0,0
+dolcetto,"different constructs, same library",CCNH,0,0,0
+dolcetto,"different constructs, same library",CCNH,0,0,0
+dolcetto,"different constructs, same library",CCNH,0,0,0
+dolcetto,split-half (same construct),CD151,0,0,0
+dolcetto,split-half (same construct),CD151,0,0,0
+dolcetto,split-half (same construct),CD151,1,0,0
+dolcetto,"different constructs, same library",CD151,0,0,0
+dolcetto,"different constructs, same library",CD151,0,0,0
+dolcetto,"different constructs, same library",CD151,0,0,0
+dolcetto,split-half (same construct),CINP,0,0,0
+dolcetto,split-half (same construct),CINP,2,2,0
+dolcetto,split-half (same construct),CINP,1,0,1
+dolcetto,"different constructs, same library",CINP,0,0,0
+dolcetto,"different constructs, same library",CINP,0,0,0
+dolcetto,"different constructs, same library",CINP,2,0,0
+dolcetto,split-half (same construct),CIR1,0,0,0
+dolcetto,split-half (same construct),CIR1,0,0,0
+dolcetto,"different constructs, same library",CIR1,0,0,0
+dolcetto,split-half (same construct),CISH,0,0,0
+dolcetto,split-half (same construct),CISH,0,0,0
+dolcetto,split-half (same construct),CISH,0,0,0
+dolcetto,"different constructs, same library",CISH,0,0,0
+dolcetto,"different constructs, same library",CISH,0,0,0
+dolcetto,"different constructs, same library",CISH,0,0,0
+dolcetto,split-half (same construct),CLN6,0,0,0
+dolcetto,split-half (same construct),CLN6,0,0,0
+dolcetto,split-half (same construct),CLN6,0,0,0
+dolcetto,"different constructs, same library",CLN6,0,0,0
+dolcetto,"different constructs, same library",CLN6,0,0,0
+dolcetto,"different constructs, same library",CLN6,0,0,0
+dolcetto,split-half (same construct),CNIH4,3,2,0
+dolcetto,split-half (same construct),CNIH4,6,6,0
+dolcetto,split-half (same construct),CNIH4,0,0,0
+dolcetto,"different constructs, same library",CNIH4,3,2,0
+dolcetto,"different constructs, same library",CNIH4,3,0,2
+dolcetto,"different constructs, same library",CNIH4,6,0,6
+dolcetto,split-half (same construct),COPB2,0,0,0
+dolcetto,split-half (same construct),COX6A1,0,0,0
+dolcetto,split-half (same construct),COX6A1,0,0,0
+dolcetto,split-half (same construct),COX6A1,0,0,0
+dolcetto,"different constructs, same library",COX6A1,0,0,0
+dolcetto,"different constructs, same library",COX6A1,0,0,0
+dolcetto,"different constructs, same library",COX6A1,0,0,0
+dolcetto,split-half (same construct),CTSB,0,0,0
+dolcetto,split-half (same construct),CTSB,0,0,0
+dolcetto,split-half (same construct),CTSB,0,0,0
+dolcetto,"different constructs, same library",CTSB,0,0,0
+dolcetto,"different constructs, same library",CTSB,0,0,0
+dolcetto,"different constructs, same library",CTSB,0,0,0
+dolcetto,split-half (same construct),CUL1,0,0,0
+dolcetto,split-half (same construct),CUL1,0,0,0
+dolcetto,split-half (same construct),CUL1,2,2,0
+dolcetto,"different constructs, same library",CUL1,0,0,0
+dolcetto,"different constructs, same library",CUL1,0,0,0
+dolcetto,"different constructs, same library",CUL1,0,0,0
+dolcetto,split-half (same construct),CYB561A3,0,0,0
+dolcetto,split-half (same construct),DHCR7,0,0,0
+dolcetto,split-half (same construct),DHCR7,0,0,0
+dolcetto,split-half (same construct),DHCR7,0,0,0
+dolcetto,"different constructs, same library",DHCR7,0,0,0
+dolcetto,"different constructs, same library",DHCR7,0,0,0
+dolcetto,"different constructs, same library",DHCR7,0,0,0
+dolcetto,split-half (same construct),DIMT1,0,0,0
+dolcetto,split-half (same construct),DIMT1,4,4,0
+dolcetto,split-half (same construct),DIMT1,15,14,0
+dolcetto,"different constructs, same library",DIMT1,0,0,0
+dolcetto,"different constructs, same library",DIMT1,0,0,0
+dolcetto,"different constructs, same library",DIMT1,4,4,0
+dolcetto,split-half (same construct),EXOSC4,12,11,0
+dolcetto,split-half (same construct),EXOSC5,25,25,0
+dolcetto,split-half (same construct),EXOSC5,0,0,0
+dolcetto,split-half (same construct),EXOSC5,62,58,1
+dolcetto,"different constructs, same library",EXOSC5,25,12,9
+dolcetto,"different constructs, same library",EXOSC5,25,24,0
+dolcetto,"different constructs, same library",EXOSC5,0,0,0
+dolcetto,split-half (same construct),FDFT1,1,0,0
+dolcetto,split-half (same construct),FDFT1,0,0,0
+dolcetto,split-half (same construct),FDFT1,1,1,0
+dolcetto,"different constructs, same library",FDFT1,1,1,0
+dolcetto,"different constructs, same library",FDFT1,1,0,0
+dolcetto,"different constructs, same library",FDFT1,0,0,0
+dolcetto,split-half (same construct),FDX1,2,2,0
+dolcetto,split-half (same construct),FDX1,0,0,0
+dolcetto,"different constructs, same library",FDX1,2,0,2
+dolcetto,split-half (same construct),FH,0,0,0
+dolcetto,split-half (same construct),FH,0,0,0
+dolcetto,split-half (same construct),FH,0,0,0
+dolcetto,"different constructs, same library",FH,0,0,0
+dolcetto,"different constructs, same library",FH,0,0,0
+dolcetto,"different constructs, same library",FH,0,0,0
+dolcetto,split-half (same construct),FOXRED1,0,0,0
+dolcetto,split-half (same construct),GTF2H5,0,0,0
+dolcetto,split-half (same construct),GTF2H5,1,1,0
+dolcetto,split-half (same construct),GTF2H5,0,0,0
+dolcetto,"different constructs, same library",GTF2H5,0,0,0
+dolcetto,"different constructs, same library",GTF2H5,0,0,0
+dolcetto,"different constructs, same library",GTF2H5,1,1,0
+dolcetto,split-half (same construct),GYPB,0,0,0
+dolcetto,split-half (same construct),GYPB,0,0,0
+dolcetto,split-half (same construct),GYPB,0,0,0
+dolcetto,"different constructs, same library",GYPB,0,0,0
+dolcetto,"different constructs, same library",GYPB,0,0,0
+dolcetto,"different constructs, same library",GYPB,0,0,0
+dolcetto,split-half (same construct),HIST1H1D,0,0,0
+dolcetto,split-half (same construct),HIST1H1D,0,0,0
+dolcetto,split-half (same construct),HIST1H1D,0,0,0
+dolcetto,"different constructs, same library",HIST1H1D,0,0,0
+dolcetto,"different constructs, same library",HIST1H1D,0,0,0
+dolcetto,"different constructs, same library",HIST1H1D,0,0,0
+dolcetto,split-half (same construct),HIST1H4H,0,0,0
+dolcetto,split-half (same construct),HMGB2,0,0,0
+dolcetto,split-half (same construct),HMGB2,2,2,0
+dolcetto,split-half (same construct),HMGB2,0,0,0
+dolcetto,"different constructs, same library",HMGB2,0,0,0
+dolcetto,"different constructs, same library",HMGB2,0,0,0
+dolcetto,"different constructs, same library",HMGB2,2,1,1
+dolcetto,split-half (same construct),HSPA5,10,9,1
+dolcetto,split-half (same construct),HSPA5,10,9,0
+dolcetto,split-half (same construct),HSPA5,12,11,1
+dolcetto,"different constructs, same library",HSPA5,10,10,0
+dolcetto,"different constructs, same library",HSPA5,10,10,0
+dolcetto,"different constructs, same library",HSPA5,10,10,0
+dolcetto,split-half (same construct),IDI1,0,0,0
+dolcetto,split-half (same construct),IDI1,0,0,0
+dolcetto,split-half (same construct),IDI1,1,1,0
+dolcetto,"different constructs, same library",IDI1,0,0,0
+dolcetto,"different constructs, same library",IDI1,0,0,0
+dolcetto,"different constructs, same library",IDI1,0,0,0
+dolcetto,split-half (same construct),IGF2BP3,0,0,0
+dolcetto,split-half (same construct),IGF2BP3,0,0,0
+dolcetto,"different constructs, same library",IGF2BP3,0,0,0
+dolcetto,split-half (same construct),IQGAP2,2,2,0
+dolcetto,split-half (same construct),IQGAP2,0,0,0
+dolcetto,"different constructs, same library",IQGAP2,2,0,1
+dolcetto,split-half (same construct),KPNA6,0,0,0
+dolcetto,split-half (same construct),KPNA6,0,0,0
+dolcetto,split-half (same construct),KPNA6,0,0,0
+dolcetto,"different constructs, same library",KPNA6,0,0,0
+dolcetto,"different constructs, same library",KPNA6,0,0,0
+dolcetto,"different constructs, same library",KPNA6,0,0,0
+dolcetto,split-half (same construct),KRTCAP2,0,0,0
+dolcetto,split-half (same construct),KRTCAP2,0,0,0
+dolcetto,split-half (same construct),KRTCAP2,0,0,0
+dolcetto,"different constructs, same library",KRTCAP2,0,0,0
+dolcetto,"different constructs, same library",KRTCAP2,0,0,0
+dolcetto,"different constructs, same library",KRTCAP2,0,0,0
+dolcetto,split-half (same construct),KXD1,0,0,0
+dolcetto,split-half (same construct),KXD1,0,0,0
+dolcetto,split-half (same construct),KXD1,0,0,0
+dolcetto,"different constructs, same library",KXD1,0,0,0
+dolcetto,"different constructs, same library",KXD1,0,0,0
+dolcetto,"different constructs, same library",KXD1,0,0,0
+dolcetto,split-half (same construct),LAMTOR1,1,1,0
+dolcetto,split-half (same construct),LAMTOR1,0,0,0
+dolcetto,split-half (same construct),LAMTOR1,0,0,0
+dolcetto,"different constructs, same library",LAMTOR1,1,0,1
+dolcetto,"different constructs, same library",LAMTOR1,1,1,0
+dolcetto,"different constructs, same library",LAMTOR1,0,0,0
+dolcetto,split-half (same construct),MAK16,18,15,1
+dolcetto,split-half (same construct),MAPKAPK2,0,0,0
+dolcetto,split-half (same construct),MAPKAPK2,1,0,1
+dolcetto,"different constructs, same library",MAPKAPK2,0,0,0
+dolcetto,split-half (same construct),MCM2,6,6,0
+dolcetto,split-half (same construct),MCM2,12,12,0
+dolcetto,split-half (same construct),MCM2,17,16,0
+dolcetto,"different constructs, same library",MCM2,6,6,0
+dolcetto,"different constructs, same library",MCM2,6,6,0
+dolcetto,"different constructs, same library",MCM2,12,12,0
+dolcetto,split-half (same construct),MITD1,0,0,0
+dolcetto,split-half (same construct),MRPL37,12,11,0
+dolcetto,split-half (same construct),MRPL37,9,9,0
+dolcetto,split-half (same construct),MRPL37,8,8,0
+dolcetto,"different constructs, same library",MRPL37,12,11,0
+dolcetto,"different constructs, same library",MRPL37,12,12,0
+dolcetto,"different constructs, same library",MRPL37,9,9,0
+dolcetto,split-half (same construct),MRPS18A,2,2,0
+dolcetto,split-half (same construct),MRPS18A,2,2,0
+dolcetto,"different constructs, same library",MRPS18A,2,2,0
+dolcetto,split-half (same construct),MSN,0,0,0
+dolcetto,split-half (same construct),MTA1,3,2,0
+dolcetto,split-half (same construct),MTA1,0,0,0
+dolcetto,"different constructs, same library",MTA1,3,0,2
+dolcetto,split-half (same construct),NDFIP1,0,0,0
+dolcetto,split-half (same construct),NIPSNAP3A,0,0,0
+dolcetto,split-half (same construct),NKTR,0,0,0
+dolcetto,split-half (same construct),NKTR,0,0,0
+dolcetto,"different constructs, same library",NKTR,0,0,0
+dolcetto,split-half (same construct),NQO1,0,0,0
+dolcetto,split-half (same construct),NQO1,0,0,0
+dolcetto,"different constructs, same library",NQO1,0,0,0
+dolcetto,split-half (same construct),NT5C3A,0,0,0
+dolcetto,split-half (same construct),OLA1,1,1,0
+dolcetto,split-half (same construct),OLA1,0,0,0
+dolcetto,split-half (same construct),OLA1,0,0,0
+dolcetto,"different constructs, same library",OLA1,1,1,0
+dolcetto,"different constructs, same library",OLA1,1,0,1
+dolcetto,"different constructs, same library",OLA1,0,0,0
+dolcetto,split-half (same construct),OSGEP,0,0,0
+dolcetto,split-half (same construct),OSGEP,0,0,0
+dolcetto,"different constructs, same library",OSGEP,0,0,0
+dolcetto,split-half (same construct),OST4,0,0,0
+dolcetto,split-half (same construct),OST4,0,0,0
+dolcetto,split-half (same construct),OST4,0,0,0
+dolcetto,"different constructs, same library",OST4,0,0,0
+dolcetto,"different constructs, same library",OST4,0,0,0
+dolcetto,"different constructs, same library",OST4,0,0,0
+dolcetto,split-half (same construct),P4HB,0,0,0
+dolcetto,split-half (same construct),P4HB,0,0,0
+dolcetto,split-half (same construct),P4HB,0,0,0
+dolcetto,"different constructs, same library",P4HB,0,0,0
+dolcetto,"different constructs, same library",P4HB,0,0,0
+dolcetto,"different constructs, same library",P4HB,0,0,0
+dolcetto,split-half (same construct),PDCD2,0,0,0
+dolcetto,split-half (same construct),PDLIM2,0,0,0
+dolcetto,split-half (same construct),PDLIM2,0,0,0
+dolcetto,split-half (same construct),PDLIM2,0,0,0
+dolcetto,"different constructs, same library",PDLIM2,0,0,0
+dolcetto,"different constructs, same library",PDLIM2,0,0,0
+dolcetto,"different constructs, same library",PDLIM2,0,0,0
+dolcetto,split-half (same construct),PDZD11,0,0,0
+dolcetto,split-half (same construct),PDZD11,0,0,0
+dolcetto,split-half (same construct),PDZD11,13,5,2
+dolcetto,"different constructs, same library",PDZD11,0,0,0
+dolcetto,"different constructs, same library",PDZD11,0,0,0
+dolcetto,"different constructs, same library",PDZD11,0,0,0
+dolcetto,split-half (same construct),PET117,14,13,0
+dolcetto,split-half (same construct),PIN4,0,0,0
+dolcetto,split-half (same construct),PIN4,0,0,0
+dolcetto,"different constructs, same library",PIN4,0,0,0
+dolcetto,split-half (same construct),PITHD1,0,0,0
+dolcetto,split-half (same construct),PITHD1,0,0,0
+dolcetto,split-half (same construct),PITHD1,1,1,0
+dolcetto,"different constructs, same library",PITHD1,0,0,0
+dolcetto,"different constructs, same library",PITHD1,0,0,0
+dolcetto,"different constructs, same library",PITHD1,0,0,0
+dolcetto,split-half (same construct),PMVK,0,0,0
+dolcetto,split-half (same construct),PMVK,0,0,0
+dolcetto,split-half (same construct),PMVK,0,0,0
+dolcetto,"different constructs, same library",PMVK,0,0,0
+dolcetto,"different constructs, same library",PMVK,0,0,0
+dolcetto,"different constructs, same library",PMVK,0,0,0
+dolcetto,split-half (same construct),POLR3GL,0,0,0
+dolcetto,split-half (same construct),POLR3GL,0,0,0
+dolcetto,split-half (same construct),POLR3GL,0,0,0
+dolcetto,"different constructs, same library",POLR3GL,0,0,0
+dolcetto,"different constructs, same library",POLR3GL,0,0,0
+dolcetto,"different constructs, same library",POLR3GL,0,0,0
+dolcetto,split-half (same construct),PPP1R14B,2,2,0
+dolcetto,split-half (same construct),PPP1R14B,5,5,0
+dolcetto,split-half (same construct),PPP1R14B,0,0,0
+dolcetto,"different constructs, same library",PPP1R14B,2,1,1
+dolcetto,"different constructs, same library",PPP1R14B,2,0,2
+dolcetto,"different constructs, same library",PPP1R14B,5,0,5
+dolcetto,split-half (same construct),PPP5C,0,0,0
+dolcetto,split-half (same construct),PRDX6,0,0,0
+dolcetto,split-half (same construct),PRDX6,0,0,0
+dolcetto,split-half (same construct),PRDX6,0,0,0
+dolcetto,"different constructs, same library",PRDX6,0,0,0
+dolcetto,"different constructs, same library",PRDX6,0,0,0
+dolcetto,"different constructs, same library",PRDX6,0,0,0
+dolcetto,split-half (same construct),PRKDC,2,2,0
+dolcetto,split-half (same construct),PRKDC,1,1,0
+dolcetto,split-half (same construct),PRKDC,0,0,0
+dolcetto,"different constructs, same library",PRKDC,2,2,0
+dolcetto,"different constructs, same library",PRKDC,2,0,1
+dolcetto,"different constructs, same library",PRKDC,1,1,0
+dolcetto,split-half (same construct),PRPF6,0,0,0
+dolcetto,split-half (same construct),PRPF6,0,0,0
+dolcetto,"different constructs, same library",PRPF6,0,0,0
+dolcetto,split-half (same construct),PRRC2A,0,0,0
+dolcetto,split-half (same construct),PSMA3,1,0,0
+dolcetto,split-half (same construct),PSMC3IP,0,0,0
+dolcetto,split-half (same construct),PSMC3IP,0,0,0
+dolcetto,"different constructs, same library",PSMC3IP,0,0,0
+dolcetto,split-half (same construct),PSMD13,1,1,0
+dolcetto,split-half (same construct),PSMD13,4,4,0
+dolcetto,"different constructs, same library",PSMD13,1,0,0
+dolcetto,split-half (same construct),PSMD5,0,0,0
+dolcetto,split-half (same construct),PSMD5,1,1,0
+dolcetto,split-half (same construct),PSMD5,0,0,0
+dolcetto,"different constructs, same library",PSMD5,0,0,0
+dolcetto,"different constructs, same library",PSMD5,0,0,0
+dolcetto,"different constructs, same library",PSMD5,1,0,1
+dolcetto,split-half (same construct),PSME1,1,1,0
+dolcetto,split-half (same construct),PSME1,0,0,0
+dolcetto,split-half (same construct),PSME1,0,0,0
+dolcetto,"different constructs, same library",PSME1,1,1,0
+dolcetto,"different constructs, same library",PSME1,1,0,0
+dolcetto,"different constructs, same library",PSME1,0,0,0
+dolcetto,split-half (same construct),PTMA,1,0,1
+dolcetto,split-half (same construct),PTMA,0,0,0
+dolcetto,"different constructs, same library",PTMA,1,0,1
+dolcetto,split-half (same construct),RANBP1,0,0,0
+dolcetto,split-half (same construct),RANBP1,0,0,0
+dolcetto,split-half (same construct),RANBP1,0,0,0
+dolcetto,"different constructs, same library",RANBP1,0,0,0
+dolcetto,"different constructs, same library",RANBP1,0,0,0
+dolcetto,"different constructs, same library",RANBP1,0,0,0
+dolcetto,split-half (same construct),RBBP4,0,0,0
+dolcetto,split-half (same construct),RBBP4,0,0,0
+dolcetto,"different constructs, same library",RBBP4,0,0,0
+dolcetto,split-half (same construct),RHEB,0,0,0
+dolcetto,split-half (same construct),RNF187,0,0,0
+dolcetto,split-half (same construct),RNF187,0,0,0
+dolcetto,split-half (same construct),RNF187,0,0,0
+dolcetto,"different constructs, same library",RNF187,0,0,0
+dolcetto,"different constructs, same library",RNF187,0,0,0
+dolcetto,"different constructs, same library",RNF187,0,0,0
+dolcetto,split-half (same construct),RNH1,0,0,0
+dolcetto,split-half (same construct),RP9,0,0,0
+dolcetto,split-half (same construct),RP9,0,0,0
+dolcetto,"different constructs, same library",RP9,0,0,0
+dolcetto,split-half (same construct),RPL37,2,2,0
+dolcetto,split-half (same construct),RPL37,1,0,0
+dolcetto,split-half (same construct),RPL37,2,2,0
+dolcetto,"different constructs, same library",RPL37,2,0,0
+dolcetto,"different constructs, same library",RPL37,2,2,0
+dolcetto,"different constructs, same library",RPL37,1,1,0
+dolcetto,split-half (same construct),RPP25L,0,0,0
+dolcetto,split-half (same construct),RPP25L,0,0,0
+dolcetto,"different constructs, same library",RPP25L,0,0,0
+dolcetto,split-half (same construct),RPS3,23,14,4
+dolcetto,split-half (same construct),RPS3,8,8,0
+dolcetto,"different constructs, same library",RPS3,23,15,3
+dolcetto,split-half (same construct),RPS4X,7,3,3
+dolcetto,split-half (same construct),RPS4X,50,48,1
+dolcetto,split-half (same construct),RPS4X,27,27,0
+dolcetto,"different constructs, same library",RPS4X,7,6,1
+dolcetto,"different constructs, same library",RPS4X,7,4,3
+dolcetto,"different constructs, same library",RPS4X,50,39,8
+dolcetto,split-half (same construct),RRP36,0,0,0
+dolcetto,split-half (same construct),RRP36,0,0,0
+dolcetto,split-half (same construct),RRP36,0,0,0
+dolcetto,"different constructs, same library",RRP36,0,0,0
+dolcetto,"different constructs, same library",RRP36,0,0,0
+dolcetto,"different constructs, same library",RRP36,0,0,0
+dolcetto,split-half (same construct),SDF2L1,0,0,0
+dolcetto,split-half (same construct),SDF2L1,0,0,0
+dolcetto,split-half (same construct),SDF2L1,0,0,0
+dolcetto,"different constructs, same library",SDF2L1,0,0,0
+dolcetto,"different constructs, same library",SDF2L1,0,0,0
+dolcetto,"different constructs, same library",SDF2L1,0,0,0
+dolcetto,split-half (same construct),SEC11A,0,0,0
+dolcetto,split-half (same construct),SEC11A,0,0,0
+dolcetto,split-half (same construct),SEC11A,0,0,0
+dolcetto,"different constructs, same library",SEC11A,0,0,0
+dolcetto,"different constructs, same library",SEC11A,0,0,0
+dolcetto,"different constructs, same library",SEC11A,0,0,0
+dolcetto,split-half (same construct),SEC61B,0,0,0
+dolcetto,split-half (same construct),SEC61B,2,2,0
+dolcetto,split-half (same construct),SEC61B,6,5,0
+dolcetto,"different constructs, same library",SEC61B,0,0,0
+dolcetto,"different constructs, same library",SEC61B,0,0,0
+dolcetto,"different constructs, same library",SEC61B,2,2,0
+dolcetto,split-half (same construct),SHISA5,0,0,0
+dolcetto,split-half (same construct),SHISA5,2,2,0
+dolcetto,"different constructs, same library",SHISA5,0,0,0
+dolcetto,split-half (same construct),SLC30A9,2,2,0
+dolcetto,split-half (same construct),SLC30A9,0,0,0
+dolcetto,split-half (same construct),SLC30A9,0,0,0
+dolcetto,"different constructs, same library",SLC30A9,2,0,2
+dolcetto,"different constructs, same library",SLC30A9,2,2,0
+dolcetto,"different constructs, same library",SLC30A9,0,0,0
+dolcetto,split-half (same construct),SLC3A2,0,0,0
+dolcetto,split-half (same construct),SLC3A2,0,0,0
+dolcetto,"different constructs, same library",SLC3A2,0,0,0
+dolcetto,split-half (same construct),SMARCB1,1,1,0
+dolcetto,split-half (same construct),SMARCB1,1,1,0
+dolcetto,"different constructs, same library",SMARCB1,1,1,0
+dolcetto,split-half (same construct),SNRPD2,9,5,2
+dolcetto,split-half (same construct),SNRPD2,2,0,1
+dolcetto,"different constructs, same library",SNRPD2,9,2,3
+dolcetto,split-half (same construct),SNX17,0,0,0
+dolcetto,split-half (same construct),SNX17,0,0,0
+dolcetto,"different constructs, same library",SNX17,0,0,0
+dolcetto,split-half (same construct),SNX2,0,0,0
+dolcetto,split-half (same construct),SNX2,0,0,0
+dolcetto,split-half (same construct),SNX2,0,0,0
+dolcetto,"different constructs, same library",SNX2,0,0,0
+dolcetto,"different constructs, same library",SNX2,0,0,0
+dolcetto,"different constructs, same library",SNX2,0,0,0
+dolcetto,split-half (same construct),SPATS2,0,0,0
+dolcetto,split-half (same construct),SPATS2,0,0,0
+dolcetto,split-half (same construct),SPATS2,1,1,0
+dolcetto,"different constructs, same library",SPATS2,0,0,0
+dolcetto,"different constructs, same library",SPATS2,0,0,0
+dolcetto,"different constructs, same library",SPATS2,0,0,0
+dolcetto,split-half (same construct),SPCS3,12,9,1
+dolcetto,split-half (same construct),SPCS3,0,0,0
+dolcetto,split-half (same construct),SPCS3,0,0,0
+dolcetto,"different constructs, same library",SPCS3,12,3,5
+dolcetto,"different constructs, same library",SPCS3,12,1,7
+dolcetto,"different constructs, same library",SPCS3,0,0,0
+dolcetto,split-half (same construct),SSH2,0,0,0
+dolcetto,split-half (same construct),SSH2,0,0,0
+dolcetto,"different constructs, same library",SSH2,0,0,0
+dolcetto,split-half (same construct),SUMO3,4,4,0
+dolcetto,split-half (same construct),SUMO3,0,0,0
+dolcetto,"different constructs, same library",SUMO3,4,0,2
+dolcetto,split-half (same construct),SURF4,0,0,0
+dolcetto,split-half (same construct),SURF4,3,3,0
+dolcetto,"different constructs, same library",SURF4,0,0,0
+dolcetto,split-half (same construct),TACO1,0,0,0
+dolcetto,split-half (same construct),TACO1,0,0,0
+dolcetto,"different constructs, same library",TACO1,0,0,0
+dolcetto,split-half (same construct),TMEM101,0,0,0
+dolcetto,split-half (same construct),TMEM101,0,0,0
+dolcetto,split-half (same construct),TMEM101,0,0,0
+dolcetto,"different constructs, same library",TMEM101,0,0,0
+dolcetto,"different constructs, same library",TMEM101,0,0,0
+dolcetto,"different constructs, same library",TMEM101,0,0,0
+dolcetto,split-half (same construct),TMEM59,0,0,0
+dolcetto,split-half (same construct),TMEM59,0,0,0
+dolcetto,"different constructs, same library",TMEM59,0,0,0
+dolcetto,split-half (same construct),TRMT10C,7,7,0
+dolcetto,split-half (same construct),TRMT10C,10,10,0
+dolcetto,split-half (same construct),TRMT10C,4,4,0
+dolcetto,"different constructs, same library",TRMT10C,7,7,0
+dolcetto,"different constructs, same library",TRMT10C,7,5,1
+dolcetto,"different constructs, same library",TRMT10C,10,5,3
+dolcetto,split-half (same construct),TROAP,0,0,0
+dolcetto,split-half (same construct),TROAP,0,0,0
+dolcetto,"different constructs, same library",TROAP,0,0,0
+dolcetto,split-half (same construct),TSSC4,0,0,0
+dolcetto,split-half (same construct),TUBA1B,1,0,1
+dolcetto,split-half (same construct),TUBA1B,0,0,0
+dolcetto,"different constructs, same library",TUBA1B,1,0,1
+dolcetto,split-half (same construct),UBE2J1,0,0,0
+dolcetto,split-half (same construct),USP47,0,0,0
+dolcetto,split-half (same construct),USP47,0,0,0
+dolcetto,split-half (same construct),USP47,0,0,0
+dolcetto,"different constructs, same library",USP47,0,0,0
+dolcetto,"different constructs, same library",USP47,0,0,0
+dolcetto,"different constructs, same library",USP47,0,0,0
+dolcetto,split-half (same construct),VCL,0,0,0
+dolcetto,split-half (same construct),VCL,0,0,0
+dolcetto,"different constructs, same library",VCL,0,0,0
+dolcetto,split-half (same construct),VMP1,0,0,0
+dolcetto,split-half (same construct),WBP2,0,0,0
+dolcetto,split-half (same construct),WBP2,0,0,0
+dolcetto,split-half (same construct),WBP2,0,0,0
+dolcetto,"different constructs, same library",WBP2,0,0,0
+dolcetto,"different constructs, same library",WBP2,0,0,0
+dolcetto,"different constructs, same library",WBP2,0,0,0
+dolcetto,split-half (same construct),XBP1,0,0,0
+dolcetto,split-half (same construct),XBP1,0,0,0
+dolcetto,"different constructs, same library",XBP1,0,0,0
+dolcetto,split-half (same construct),YARS,0,0,0
+dolcetto,split-half (same construct),YARS,1,1,0
+dolcetto,split-half (same construct),YARS,0,0,0
+dolcetto,"different constructs, same library",YARS,0,0,0
+dolcetto,"different constructs, same library",YARS,0,0,0
+dolcetto,"different constructs, same library",YARS,1,0,1
+dolcetto,split-half (same construct),ZFAND6,0,0,0
+dolcetto,split-half (same construct),ZKSCAN1,0,0,0
+dolcetto,split-half (same construct),ZNF451,1,1,0
+dolcetto,split-half (same construct),ZNF451,1,1,0
+dolcetto,split-half (same construct),ZNF451,0,0,0
+dolcetto,"different constructs, same library",ZNF451,1,1,0
+dolcetto,"different constructs, same library",ZNF451,1,1,0
+dolcetto,"different constructs, same library",ZNF451,1,1,0
+dolcetto,split-half (same construct),ZNF672,0,0,0
+dolcetto,split-half (same construct),ZNF672,0,0,0
+dolcetto,"different constructs, same library",ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,0,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,1,1,0
+cross,dual vs Dolcetto (different libraries),PDZD11,1,0,0
+cross,dual vs Dolcetto (different libraries),PDZD11,1,1,0
+cross,dual vs Dolcetto (different libraries),NDFIP1,0,0,0
+cross,dual vs Dolcetto (different libraries),NDFIP1,0,0,0
+cross,dual vs Dolcetto (different libraries),NDFIP1,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRDX6,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),RNF187,0,0,0
+cross,dual vs Dolcetto (different libraries),SPCS3,36,21,8
+cross,dual vs Dolcetto (different libraries),SPCS3,36,6,15
+cross,dual vs Dolcetto (different libraries),SPCS3,36,3,24
+cross,dual vs Dolcetto (different libraries),SPCS3,7,5,1
+cross,dual vs Dolcetto (different libraries),SPCS3,7,1,3
+cross,dual vs Dolcetto (different libraries),SPCS3,7,0,5
+cross,dual vs Dolcetto (different libraries),SPCS3,6,6,0
+cross,dual vs Dolcetto (different libraries),SPCS3,6,2,2
+cross,dual vs Dolcetto (different libraries),SPCS3,6,0,3
+cross,dual vs Dolcetto (different libraries),SPCS3,1,0,0
+cross,dual vs Dolcetto (different libraries),SPCS3,1,0,0
+cross,dual vs Dolcetto (different libraries),SPCS3,1,1,0
+cross,dual vs Dolcetto (different libraries),SPCS3,0,0,0
+cross,dual vs Dolcetto (different libraries),SPCS3,0,0,0
+cross,dual vs Dolcetto (different libraries),SPCS3,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),KRTCAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),IGF2BP3,0,0,0
+cross,dual vs Dolcetto (different libraries),IGF2BP3,0,0,0
+cross,dual vs Dolcetto (different libraries),IGF2BP3,0,0,0
+cross,dual vs Dolcetto (different libraries),IGF2BP3,0,0,0
+cross,dual vs Dolcetto (different libraries),PDCD2,6,0,6
+cross,dual vs Dolcetto (different libraries),PDCD2,0,0,0
+cross,dual vs Dolcetto (different libraries),PDCD2,12,0,6
+cross,dual vs Dolcetto (different libraries),MAPKAPK2,0,0,0
+cross,dual vs Dolcetto (different libraries),MAPKAPK2,0,0,0
+cross,dual vs Dolcetto (different libraries),MAPKAPK2,1,0,1
+cross,dual vs Dolcetto (different libraries),MAPKAPK2,1,0,1
+cross,dual vs Dolcetto (different libraries),MAPKAPK2,0,0,0
+cross,dual vs Dolcetto (different libraries),MAPKAPK2,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMC3IP,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMC3IP,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMC3IP,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMC3IP,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMC3IP,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMC3IP,0,0,0
+cross,dual vs Dolcetto (different libraries),TSSC4,0,0,0
+cross,dual vs Dolcetto (different libraries),TSSC4,0,0,0
+cross,dual vs Dolcetto (different libraries),TSSC4,0,0,0
+cross,dual vs Dolcetto (different libraries),MRPS18A,14,4,5
+cross,dual vs Dolcetto (different libraries),MRPS18A,14,8,2
+cross,dual vs Dolcetto (different libraries),MRPS18A,2,1,0
+cross,dual vs Dolcetto (different libraries),MRPS18A,2,1,0
+cross,dual vs Dolcetto (different libraries),MRPS18A,5,4,0
+cross,dual vs Dolcetto (different libraries),MRPS18A,5,5,0
+cross,dual vs Dolcetto (different libraries),IQGAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),IQGAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),IQGAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),IQGAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),IQGAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),IQGAP2,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD13,26,8,11
+cross,dual vs Dolcetto (different libraries),PSMD13,26,16,8
+cross,dual vs Dolcetto (different libraries),PSMD13,3,3,0
+cross,dual vs Dolcetto (different libraries),PSMD13,3,3,0
+cross,dual vs Dolcetto (different libraries),PSMD13,1,0,1
+cross,dual vs Dolcetto (different libraries),PSMD13,1,1,0
+cross,dual vs Dolcetto (different libraries),SHISA5,0,0,0
+cross,dual vs Dolcetto (different libraries),SHISA5,0,0,0
+cross,dual vs Dolcetto (different libraries),SHISA5,1,0,1
+cross,dual vs Dolcetto (different libraries),SHISA5,1,0,1
+cross,dual vs Dolcetto (different libraries),SHISA5,0,0,0
+cross,dual vs Dolcetto (different libraries),SHISA5,0,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,0,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,0,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,0,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,1,0,1
+cross,dual vs Dolcetto (different libraries),COX6A1,1,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,1,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,0,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,0,0,0
+cross,dual vs Dolcetto (different libraries),COX6A1,0,0,0
+cross,dual vs Dolcetto (different libraries),RPP25L,0,0,0
+cross,dual vs Dolcetto (different libraries),RPP25L,0,0,0
+cross,dual vs Dolcetto (different libraries),RPP25L,0,0,0
+cross,dual vs Dolcetto (different libraries),RPP25L,0,0,0
+cross,dual vs Dolcetto (different libraries),RPP25L,0,0,0
+cross,dual vs Dolcetto (different libraries),RPP25L,0,0,0
+cross,dual vs Dolcetto (different libraries),SDF2L1,1,0,1
+cross,dual vs Dolcetto (different libraries),SDF2L1,1,0,1
+cross,dual vs Dolcetto (different libraries),SDF2L1,1,0,1
+cross,dual vs Dolcetto (different libraries),SDF2L1,0,0,0
+cross,dual vs Dolcetto (different libraries),SDF2L1,0,0,0
+cross,dual vs Dolcetto (different libraries),SDF2L1,0,0,0
+cross,dual vs Dolcetto (different libraries),SDF2L1,0,0,0
+cross,dual vs Dolcetto (different libraries),SDF2L1,0,0,0
+cross,dual vs Dolcetto (different libraries),SDF2L1,0,0,0
+cross,dual vs Dolcetto (different libraries),TRMT10C,11,5,4
+cross,dual vs Dolcetto (different libraries),TRMT10C,11,5,4
+cross,dual vs Dolcetto (different libraries),TRMT10C,11,4,4
+cross,dual vs Dolcetto (different libraries),TRMT10C,4,4,0
+cross,dual vs Dolcetto (different libraries),TRMT10C,4,4,0
+cross,dual vs Dolcetto (different libraries),TRMT10C,4,4,0
+cross,dual vs Dolcetto (different libraries),TRMT10C,20,9,6
+cross,dual vs Dolcetto (different libraries),TRMT10C,20,10,6
+cross,dual vs Dolcetto (different libraries),TRMT10C,20,5,9
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),WBP2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX17,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX17,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX17,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX17,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX17,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX17,0,0,0
+cross,dual vs Dolcetto (different libraries),EXOSC4,25,16,3
+cross,dual vs Dolcetto (different libraries),EXOSC4,5,5,0
+cross,dual vs Dolcetto (different libraries),EXOSC4,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF672,0,0,0
+cross,dual vs Dolcetto (different libraries),FDFT1,2,2,0
+cross,dual vs Dolcetto (different libraries),FDFT1,2,2,0
+cross,dual vs Dolcetto (different libraries),FDFT1,2,2,0
+cross,dual vs Dolcetto (different libraries),FDFT1,6,6,0
+cross,dual vs Dolcetto (different libraries),FDFT1,6,6,0
+cross,dual vs Dolcetto (different libraries),FDFT1,6,5,0
+cross,dual vs Dolcetto (different libraries),FDFT1,1,1,0
+cross,dual vs Dolcetto (different libraries),FDFT1,1,1,0
+cross,dual vs Dolcetto (different libraries),FDFT1,1,1,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMD5,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,0,0,0
+cross,dual vs Dolcetto (different libraries),ADSS,5,5,0
+cross,dual vs Dolcetto (different libraries),ADSS,5,2,1
+cross,dual vs Dolcetto (different libraries),ADSS,5,2,0
+cross,dual vs Dolcetto (different libraries),MTA1,1,0,0
+cross,dual vs Dolcetto (different libraries),MTA1,1,0,1
+cross,dual vs Dolcetto (different libraries),MTA1,0,0,0
+cross,dual vs Dolcetto (different libraries),MTA1,0,0,0
+cross,dual vs Dolcetto (different libraries),PITHD1,1,0,1
+cross,dual vs Dolcetto (different libraries),PITHD1,1,1,0
+cross,dual vs Dolcetto (different libraries),PITHD1,1,1,0
+cross,dual vs Dolcetto (different libraries),PITHD1,0,0,0
+cross,dual vs Dolcetto (different libraries),PITHD1,0,0,0
+cross,dual vs Dolcetto (different libraries),PITHD1,0,0,0
+cross,dual vs Dolcetto (different libraries),PITHD1,0,0,0
+cross,dual vs Dolcetto (different libraries),PITHD1,0,0,0
+cross,dual vs Dolcetto (different libraries),PITHD1,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP5C,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP5C,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP5C,0,0,0
+cross,dual vs Dolcetto (different libraries),RRP36,12,12,0
+cross,dual vs Dolcetto (different libraries),RRP36,12,3,4
+cross,dual vs Dolcetto (different libraries),RRP36,12,6,2
+cross,dual vs Dolcetto (different libraries),RRP36,2,2,0
+cross,dual vs Dolcetto (different libraries),RRP36,2,1,0
+cross,dual vs Dolcetto (different libraries),RRP36,2,1,0
+cross,dual vs Dolcetto (different libraries),RRP36,5,4,0
+cross,dual vs Dolcetto (different libraries),RRP36,5,4,1
+cross,dual vs Dolcetto (different libraries),RRP36,5,4,0
+cross,dual vs Dolcetto (different libraries),CISH,0,0,0
+cross,dual vs Dolcetto (different libraries),CISH,0,0,0
+cross,dual vs Dolcetto (different libraries),CISH,0,0,0
+cross,dual vs Dolcetto (different libraries),CISH,1,0,1
+cross,dual vs Dolcetto (different libraries),CISH,1,0,1
+cross,dual vs Dolcetto (different libraries),CISH,1,0,1
+cross,dual vs Dolcetto (different libraries),CISH,0,0,0
+cross,dual vs Dolcetto (different libraries),CISH,0,0,0
+cross,dual vs Dolcetto (different libraries),CISH,0,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,1,0,1
+cross,dual vs Dolcetto (different libraries),P4HB,1,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,1,0,1
+cross,dual vs Dolcetto (different libraries),P4HB,0,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,0,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,0,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,0,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,0,0,0
+cross,dual vs Dolcetto (different libraries),P4HB,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6,0,0,0
+cross,dual vs Dolcetto (different libraries),VMP1,0,0,0
+cross,dual vs Dolcetto (different libraries),VMP1,2,1,1
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),YARS,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNX2,0,0,0
+cross,dual vs Dolcetto (different libraries),RHEB,0,0,0
+cross,dual vs Dolcetto (different libraries),RHEB,1,0,1
+cross,dual vs Dolcetto (different libraries),SMARCB1,0,0,0
+cross,dual vs Dolcetto (different libraries),SMARCB1,0,0,0
+cross,dual vs Dolcetto (different libraries),SMARCB1,4,4,0
+cross,dual vs Dolcetto (different libraries),SMARCB1,4,4,0
+cross,dual vs Dolcetto (different libraries),SMARCB1,0,0,0
+cross,dual vs Dolcetto (different libraries),SMARCB1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),PSME1,0,0,0
+cross,dual vs Dolcetto (different libraries),TACO1,0,0,0
+cross,dual vs Dolcetto (different libraries),TACO1,0,0,0
+cross,dual vs Dolcetto (different libraries),TACO1,0,0,0
+cross,dual vs Dolcetto (different libraries),TACO1,0,0,0
+cross,dual vs Dolcetto (different libraries),TACO1,0,0,0
+cross,dual vs Dolcetto (different libraries),TACO1,0,0,0
+cross,dual vs Dolcetto (different libraries),SEC61B,2,2,0
+cross,dual vs Dolcetto (different libraries),SEC61B,2,1,0
+cross,dual vs Dolcetto (different libraries),SEC61B,2,1,0
+cross,dual vs Dolcetto (different libraries),SEC61B,0,0,0
+cross,dual vs Dolcetto (different libraries),SEC61B,0,0,0
+cross,dual vs Dolcetto (different libraries),SEC61B,0,0,0
+cross,dual vs Dolcetto (different libraries),SEC61B,2,1,0
+cross,dual vs Dolcetto (different libraries),SEC61B,2,1,0
+cross,dual vs Dolcetto (different libraries),SEC61B,2,2,0
+cross,dual vs Dolcetto (different libraries),PSMA3,0,0,0
+cross,dual vs Dolcetto (different libraries),PSMA3,5,0,1
+cross,dual vs Dolcetto (different libraries),FDX1,0,0,0
+cross,dual vs Dolcetto (different libraries),FDX1,0,0,0
+cross,dual vs Dolcetto (different libraries),FDX1,0,0,0
+cross,dual vs Dolcetto (different libraries),FDX1,0,0,0
+cross,dual vs Dolcetto (different libraries),FDX1,0,0,0
+cross,dual vs Dolcetto (different libraries),FDX1,0,0,0
+cross,dual vs Dolcetto (different libraries),NIPSNAP3A,0,0,0
+cross,dual vs Dolcetto (different libraries),NIPSNAP3A,0,0,0
+cross,dual vs Dolcetto (different libraries),NIPSNAP3A,0,0,0
+cross,dual vs Dolcetto (different libraries),OSGEP,3,1,2
+cross,dual vs Dolcetto (different libraries),OSGEP,3,0,1
+cross,dual vs Dolcetto (different libraries),OSGEP,3,1,2
+cross,dual vs Dolcetto (different libraries),OSGEP,3,0,1
+cross,dual vs Dolcetto (different libraries),OSGEP,2,1,1
+cross,dual vs Dolcetto (different libraries),OSGEP,2,0,1
+cross,dual vs Dolcetto (different libraries),BHLHE40,0,0,0
+cross,dual vs Dolcetto (different libraries),BHLHE40,0,0,0
+cross,dual vs Dolcetto (different libraries),BHLHE40,0,0,0
+cross,dual vs Dolcetto (different libraries),BHLHE40,0,0,0
+cross,dual vs Dolcetto (different libraries),BHLHE40,0,0,0
+cross,dual vs Dolcetto (different libraries),BHLHE40,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,1,1,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,1,0,1
+cross,dual vs Dolcetto (different libraries),SLC30A9,1,1,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,1,0,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,1,0,1
+cross,dual vs Dolcetto (different libraries),SLC30A9,1,0,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC30A9,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS3,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS3,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS3,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS3,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS3,8,5,2
+cross,dual vs Dolcetto (different libraries),RPS3,8,5,2
+cross,dual vs Dolcetto (different libraries),RP9,0,0,0
+cross,dual vs Dolcetto (different libraries),RP9,0,0,0
+cross,dual vs Dolcetto (different libraries),RP9,0,0,0
+cross,dual vs Dolcetto (different libraries),RP9,0,0,0
+cross,dual vs Dolcetto (different libraries),CINP,2,0,2
+cross,dual vs Dolcetto (different libraries),CINP,2,1,0
+cross,dual vs Dolcetto (different libraries),CINP,2,0,2
+cross,dual vs Dolcetto (different libraries),CINP,15,0,10
+cross,dual vs Dolcetto (different libraries),CINP,15,11,1
+cross,dual vs Dolcetto (different libraries),CINP,15,5,4
+cross,dual vs Dolcetto (different libraries),CINP,1,0,1
+cross,dual vs Dolcetto (different libraries),CINP,1,0,0
+cross,dual vs Dolcetto (different libraries),CINP,1,1,0
+cross,dual vs Dolcetto (different libraries),MITD1,0,0,0
+cross,dual vs Dolcetto (different libraries),MITD1,0,0,0
+cross,dual vs Dolcetto (different libraries),MITD1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),OLA1,0,0,0
+cross,dual vs Dolcetto (different libraries),UBE2J1,0,0,0
+cross,dual vs Dolcetto (different libraries),UBE2J1,0,0,0
+cross,dual vs Dolcetto (different libraries),UBE2J1,0,0,0
+cross,dual vs Dolcetto (different libraries),MCM2,4,3,0
+cross,dual vs Dolcetto (different libraries),MCM2,4,3,0
+cross,dual vs Dolcetto (different libraries),MCM2,4,3,0
+cross,dual vs Dolcetto (different libraries),MCM2,16,16,0
+cross,dual vs Dolcetto (different libraries),MCM2,16,13,1
+cross,dual vs Dolcetto (different libraries),MCM2,16,14,0
+cross,dual vs Dolcetto (different libraries),ACBD6,1,1,0
+cross,dual vs Dolcetto (different libraries),ACBD6,1,0,1
+cross,dual vs Dolcetto (different libraries),ACBD6,0,0,0
+cross,dual vs Dolcetto (different libraries),ACBD6,0,0,0
+cross,dual vs Dolcetto (different libraries),ACBD6,0,0,0
+cross,dual vs Dolcetto (different libraries),ACBD6,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H1D,2,0,1
+cross,dual vs Dolcetto (different libraries),HIST1H1D,2,0,1
+cross,dual vs Dolcetto (different libraries),HIST1H1D,2,0,1
+cross,dual vs Dolcetto (different libraries),PET117,33,32,0
+cross,dual vs Dolcetto (different libraries),PET117,54,45,5
+cross,dual vs Dolcetto (different libraries),PET117,19,16,2
+cross,dual vs Dolcetto (different libraries),SEC11A,1,1,0
+cross,dual vs Dolcetto (different libraries),SEC11A,1,1,0
+cross,dual vs Dolcetto (different libraries),SEC11A,1,0,0
+cross,dual vs Dolcetto (different libraries),SEC11A,1,0,1
+cross,dual vs Dolcetto (different libraries),SEC11A,1,0,1
+cross,dual vs Dolcetto (different libraries),SEC11A,1,1,0
+cross,dual vs Dolcetto (different libraries),SEC11A,0,0,0
+cross,dual vs Dolcetto (different libraries),SEC11A,0,0,0
+cross,dual vs Dolcetto (different libraries),SEC11A,0,0,0
+cross,dual vs Dolcetto (different libraries),ZFAND6,0,0,0
+cross,dual vs Dolcetto (different libraries),ZFAND6,0,0,0
+cross,dual vs Dolcetto (different libraries),ZFAND6,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,1,0,1
+cross,dual vs Dolcetto (different libraries),RANBP1,1,0,0
+cross,dual vs Dolcetto (different libraries),RANBP1,1,0,1
+cross,dual vs Dolcetto (different libraries),SURF4,0,0,0
+cross,dual vs Dolcetto (different libraries),SURF4,0,0,0
+cross,dual vs Dolcetto (different libraries),SURF4,0,0,0
+cross,dual vs Dolcetto (different libraries),SURF4,0,0,0
+cross,dual vs Dolcetto (different libraries),SURF4,0,0,0
+cross,dual vs Dolcetto (different libraries),SURF4,0,0,0
+cross,dual vs Dolcetto (different libraries),NQO1,0,0,0
+cross,dual vs Dolcetto (different libraries),NQO1,0,0,0
+cross,dual vs Dolcetto (different libraries),NQO1,0,0,0
+cross,dual vs Dolcetto (different libraries),NQO1,0,0,0
+cross,dual vs Dolcetto (different libraries),NQO1,0,0,0
+cross,dual vs Dolcetto (different libraries),NQO1,0,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,0,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,0,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,0,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,1,0,1
+cross,dual vs Dolcetto (different libraries),GYPB,1,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,1,0,1
+cross,dual vs Dolcetto (different libraries),GYPB,0,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,0,0,0
+cross,dual vs Dolcetto (different libraries),GYPB,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),DHCR7,0,0,0
+cross,dual vs Dolcetto (different libraries),ALG13,9,0,6
+cross,dual vs Dolcetto (different libraries),ALG13,9,0,4
+cross,dual vs Dolcetto (different libraries),ALG13,1,0,0
+cross,dual vs Dolcetto (different libraries),ALG13,1,0,1
+cross,dual vs Dolcetto (different libraries),ALG13,2,0,1
+cross,dual vs Dolcetto (different libraries),ALG13,2,0,2
+cross,dual vs Dolcetto (different libraries),RNH1,0,0,0
+cross,dual vs Dolcetto (different libraries),RNH1,0,0,0
+cross,dual vs Dolcetto (different libraries),VCL,0,0,0
+cross,dual vs Dolcetto (different libraries),VCL,0,0,0
+cross,dual vs Dolcetto (different libraries),VCL,0,0,0
+cross,dual vs Dolcetto (different libraries),VCL,0,0,0
+cross,dual vs Dolcetto (different libraries),VCL,2,0,2
+cross,dual vs Dolcetto (different libraries),VCL,2,0,2
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),ACAA1,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS4X,2,1,1
+cross,dual vs Dolcetto (different libraries),RPS4X,2,2,0
+cross,dual vs Dolcetto (different libraries),RPS4X,2,2,0
+cross,dual vs Dolcetto (different libraries),RPS4X,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS4X,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS4X,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS4X,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS4X,0,0,0
+cross,dual vs Dolcetto (different libraries),RPS4X,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CTSB,0,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,1,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,1,0,1
+cross,dual vs Dolcetto (different libraries),CUL1,1,1,0
+cross,dual vs Dolcetto (different libraries),CUL1,0,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,0,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,0,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,0,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,0,0,0
+cross,dual vs Dolcetto (different libraries),CUL1,0,0,0
+cross,dual vs Dolcetto (different libraries),NT5C3A,0,0,0
+cross,dual vs Dolcetto (different libraries),NT5C3A,1,0,0
+cross,dual vs Dolcetto (different libraries),CYB561A3,0,0,0
+cross,dual vs Dolcetto (different libraries),CYB561A3,0,0,0
+cross,dual vs Dolcetto (different libraries),CYB561A3,0,0,0
+cross,dual vs Dolcetto (different libraries),PRKDC,2,2,0
+cross,dual vs Dolcetto (different libraries),PRKDC,2,1,0
+cross,dual vs Dolcetto (different libraries),PRKDC,2,1,1
+cross,dual vs Dolcetto (different libraries),PRKDC,2,1,1
+cross,dual vs Dolcetto (different libraries),PRKDC,2,0,0
+cross,dual vs Dolcetto (different libraries),PRKDC,2,0,2
+cross,dual vs Dolcetto (different libraries),PRKDC,1,1,0
+cross,dual vs Dolcetto (different libraries),PRKDC,1,0,0
+cross,dual vs Dolcetto (different libraries),PRKDC,1,0,1
+cross,dual vs Dolcetto (different libraries),EXOSC5,23,22,0
+cross,dual vs Dolcetto (different libraries),EXOSC5,23,8,11
+cross,dual vs Dolcetto (different libraries),EXOSC5,23,21,1
+cross,dual vs Dolcetto (different libraries),EXOSC5,58,54,0
+cross,dual vs Dolcetto (different libraries),EXOSC5,58,22,22
+cross,dual vs Dolcetto (different libraries),EXOSC5,58,52,3
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),PPP1R14B,0,0,0
+cross,dual vs Dolcetto (different libraries),ZKSCAN1,0,0,0
+cross,dual vs Dolcetto (different libraries),ZKSCAN1,0,0,0
+cross,dual vs Dolcetto (different libraries),ZKSCAN1,0,0,0
+cross,dual vs Dolcetto (different libraries),MRPL37,2,1,1
+cross,dual vs Dolcetto (different libraries),MRPL37,2,1,1
+cross,dual vs Dolcetto (different libraries),MRPL37,2,1,0
+cross,dual vs Dolcetto (different libraries),MRPL37,5,3,2
+cross,dual vs Dolcetto (different libraries),MRPL37,5,3,2
+cross,dual vs Dolcetto (different libraries),MRPL37,5,3,1
+cross,dual vs Dolcetto (different libraries),MRPL37,5,5,0
+cross,dual vs Dolcetto (different libraries),MRPL37,5,4,1
+cross,dual vs Dolcetto (different libraries),MRPL37,5,4,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM101,0,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,1,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,1,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,1,0,1
+cross,dual vs Dolcetto (different libraries),KPNA6,0,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,0,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,0,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,0,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,0,0,0
+cross,dual vs Dolcetto (different libraries),KPNA6,0,0,0
+cross,dual vs Dolcetto (different libraries),NKTR,0,0,0
+cross,dual vs Dolcetto (different libraries),NKTR,0,0,0
+cross,dual vs Dolcetto (different libraries),NKTR,0,0,0
+cross,dual vs Dolcetto (different libraries),NKTR,0,0,0
+cross,dual vs Dolcetto (different libraries),NKTR,0,0,0
+cross,dual vs Dolcetto (different libraries),NKTR,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),ATF6B,0,0,0
+cross,dual vs Dolcetto (different libraries),SSH2,0,0,0
+cross,dual vs Dolcetto (different libraries),SSH2,0,0,0
+cross,dual vs Dolcetto (different libraries),SSH2,0,0,0
+cross,dual vs Dolcetto (different libraries),SSH2,0,0,0
+cross,dual vs Dolcetto (different libraries),SSH2,0,0,0
+cross,dual vs Dolcetto (different libraries),SSH2,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),OST4,0,0,0
+cross,dual vs Dolcetto (different libraries),MSN,0,0,0
+cross,dual vs Dolcetto (different libraries),MSN,0,0,0
+cross,dual vs Dolcetto (different libraries),MSN,0,0,0
+cross,dual vs Dolcetto (different libraries),TUBA1B,0,0,0
+cross,dual vs Dolcetto (different libraries),TUBA1B,0,0,0
+cross,dual vs Dolcetto (different libraries),TUBA1B,0,0,0
+cross,dual vs Dolcetto (different libraries),TUBA1B,0,0,0
+cross,dual vs Dolcetto (different libraries),TUBA1B,0,0,0
+cross,dual vs Dolcetto (different libraries),TUBA1B,0,0,0
+cross,dual vs Dolcetto (different libraries),PDLIM2,0,0,0
+cross,dual vs Dolcetto (different libraries),PDLIM2,0,0,0
+cross,dual vs Dolcetto (different libraries),PDLIM2,0,0,0
+cross,dual vs Dolcetto (different libraries),PDLIM2,0,0,0
+cross,dual vs Dolcetto (different libraries),PDLIM2,0,0,0
+cross,dual vs Dolcetto (different libraries),PDLIM2,0,0,0
+cross,dual vs Dolcetto (different libraries),SUMO3,0,0,0
+cross,dual vs Dolcetto (different libraries),SUMO3,0,0,0
+cross,dual vs Dolcetto (different libraries),SUMO3,0,0,0
+cross,dual vs Dolcetto (different libraries),SUMO3,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),CLN6,0,0,0
+cross,dual vs Dolcetto (different libraries),ATP2B1,0,0,0
+cross,dual vs Dolcetto (different libraries),ATP2B1,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,0,0,0
+cross,dual vs Dolcetto (different libraries),ZNF451,1,1,0
+cross,dual vs Dolcetto (different libraries),ZNF451,1,1,0
+cross,dual vs Dolcetto (different libraries),ZNF451,1,1,0
+cross,dual vs Dolcetto (different libraries),CIR1,5,0,5
+cross,dual vs Dolcetto (different libraries),CIR1,5,0,4
+cross,dual vs Dolcetto (different libraries),CIR1,0,0,0
+cross,dual vs Dolcetto (different libraries),CIR1,0,0,0
+cross,dual vs Dolcetto (different libraries),CIR1,0,0,0
+cross,dual vs Dolcetto (different libraries),CIR1,0,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,1,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,1,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,1,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,0,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,0,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,0,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,0,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,0,0,0
+cross,dual vs Dolcetto (different libraries),HMGB2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNRPD2,0,0,0
+cross,dual vs Dolcetto (different libraries),SNRPD2,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM59,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM59,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM59,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM59,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM59,0,0,0
+cross,dual vs Dolcetto (different libraries),TMEM59,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),RPL37,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,0,0,0
+cross,dual vs Dolcetto (different libraries),SPATS2,1,0,1
+cross,dual vs Dolcetto (different libraries),SPATS2,1,0,1
+cross,dual vs Dolcetto (different libraries),SPATS2,1,0,1
+cross,dual vs Dolcetto (different libraries),IDI1,0,0,0
+cross,dual vs Dolcetto (different libraries),IDI1,0,0,0
+cross,dual vs Dolcetto (different libraries),IDI1,0,0,0
+cross,dual vs Dolcetto (different libraries),IDI1,0,0,0
+cross,dual vs Dolcetto (different libraries),IDI1,0,0,0
+cross,dual vs Dolcetto (different libraries),IDI1,0,0,0
+cross,dual vs Dolcetto (different libraries),IDI1,3,2,0
+cross,dual vs Dolcetto (different libraries),IDI1,3,0,2
+cross,dual vs Dolcetto (different libraries),IDI1,3,3,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),POLR3GL,0,0,0
+cross,dual vs Dolcetto (different libraries),PRRC2A,0,0,0
+cross,dual vs Dolcetto (different libraries),PRRC2A,0,0,0
+cross,dual vs Dolcetto (different libraries),PRRC2A,1,1,0
+cross,dual vs Dolcetto (different libraries),PMVK,0,0,0
+cross,dual vs Dolcetto (different libraries),PMVK,0,0,0
+cross,dual vs Dolcetto (different libraries),PMVK,0,0,0
+cross,dual vs Dolcetto (different libraries),PMVK,4,0,2
+cross,dual vs Dolcetto (different libraries),PMVK,4,0,3
+cross,dual vs Dolcetto (different libraries),PMVK,4,0,1
+cross,dual vs Dolcetto (different libraries),PMVK,1,1,0
+cross,dual vs Dolcetto (different libraries),PMVK,1,1,0
+cross,dual vs Dolcetto (different libraries),PMVK,1,0,1
+cross,dual vs Dolcetto (different libraries),HIST1H4H,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H4H,0,0,0
+cross,dual vs Dolcetto (different libraries),HIST1H4H,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),GTF2H5,0,0,0
+cross,dual vs Dolcetto (different libraries),DIMT1,11,7,1
+cross,dual vs Dolcetto (different libraries),DIMT1,11,10,0
+cross,dual vs Dolcetto (different libraries),DIMT1,11,11,0
+cross,dual vs Dolcetto (different libraries),DIMT1,46,15,9
+cross,dual vs Dolcetto (different libraries),DIMT1,46,41,3
+cross,dual vs Dolcetto (different libraries),DIMT1,46,40,1
+cross,dual vs Dolcetto (different libraries),DIMT1,34,13,6
+cross,dual vs Dolcetto (different libraries),DIMT1,34,32,0
+cross,dual vs Dolcetto (different libraries),DIMT1,34,31,1
+cross,dual vs Dolcetto (different libraries),HSPA5,9,9,0
+cross,dual vs Dolcetto (different libraries),HSPA5,9,9,0
+cross,dual vs Dolcetto (different libraries),HSPA5,9,9,0
+cross,dual vs Dolcetto (different libraries),HSPA5,8,7,0
+cross,dual vs Dolcetto (different libraries),HSPA5,8,8,0
+cross,dual vs Dolcetto (different libraries),HSPA5,8,7,0
+cross,dual vs Dolcetto (different libraries),HSPA5,4,3,1
+cross,dual vs Dolcetto (different libraries),HSPA5,4,3,1
+cross,dual vs Dolcetto (different libraries),HSPA5,4,3,1
+cross,dual vs Dolcetto (different libraries),TROAP,0,0,0
+cross,dual vs Dolcetto (different libraries),TROAP,0,0,0
+cross,dual vs Dolcetto (different libraries),TROAP,0,0,0
+cross,dual vs Dolcetto (different libraries),TROAP,0,0,0
+cross,dual vs Dolcetto (different libraries),TROAP,0,0,0
+cross,dual vs Dolcetto (different libraries),TROAP,0,0,0
+cross,dual vs Dolcetto (different libraries),CBFB,1,1,0
+cross,dual vs Dolcetto (different libraries),CBFB,0,0,0
+cross,dual vs Dolcetto (different libraries),CBFB,3,2,1
+cross,dual vs Dolcetto (different libraries),PRPF6,0,0,0
+cross,dual vs Dolcetto (different libraries),PRPF6,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),CNIH4,0,0,0
+cross,dual vs Dolcetto (different libraries),PIN4,0,0,0
+cross,dual vs Dolcetto (different libraries),PIN4,0,0,0
+cross,dual vs Dolcetto (different libraries),PIN4,0,0,0
+cross,dual vs Dolcetto (different libraries),PIN4,0,0,0
+cross,dual vs Dolcetto (different libraries),PIN4,0,0,0
+cross,dual vs Dolcetto (different libraries),PIN4,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,0,0,0
+cross,dual vs Dolcetto (different libraries),FH,1,0,1
+cross,dual vs Dolcetto (different libraries),FH,1,0,0
+cross,dual vs Dolcetto (different libraries),FH,1,0,1
+cross,dual vs Dolcetto (different libraries),XBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),XBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),XBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),XBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),XBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),XBP1,0,0,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,2,1,1
+cross,dual vs Dolcetto (different libraries),LAMTOR1,2,1,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,2,0,1
+cross,dual vs Dolcetto (different libraries),LAMTOR1,0,0,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,0,0,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,0,0,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,0,0,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,0,0,0
+cross,dual vs Dolcetto (different libraries),LAMTOR1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,0,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,1,0,0
+cross,dual vs Dolcetto (different libraries),KXD1,1,0,1
+cross,dual vs Dolcetto (different libraries),KXD1,1,1,0
+cross,dual vs Dolcetto (different libraries),SLC3A2,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC3A2,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC3A2,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC3A2,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC3A2,0,0,0
+cross,dual vs Dolcetto (different libraries),SLC3A2,0,0,0
+cross,dual vs Dolcetto (different libraries),MAK16,4,3,1
+cross,dual vs Dolcetto (different libraries),MAK16,4,3,0
+cross,dual vs Dolcetto (different libraries),MAK16,5,5,0
+cross,dual vs Dolcetto (different libraries),CCNH,14,3,9
+cross,dual vs Dolcetto (different libraries),CCNH,14,0,7
+cross,dual vs Dolcetto (different libraries),CCNH,14,8,2
+cross,dual vs Dolcetto (different libraries),CCNH,13,4,6
+cross,dual vs Dolcetto (different libraries),CCNH,13,0,7
+cross,dual vs Dolcetto (different libraries),CCNH,13,10,2
+cross,dual vs Dolcetto (different libraries),CCNH,12,4,5
+cross,dual vs Dolcetto (different libraries),CCNH,12,0,6
+cross,dual vs Dolcetto (different libraries),CCNH,12,6,3
+cross,dual vs Dolcetto (different libraries),CD151,0,0,0
+cross,dual vs Dolcetto (different libraries),CD151,0,0,0
+cross,dual vs Dolcetto (different libraries),CD151,0,0,0
+cross,dual vs Dolcetto (different libraries),CD151,0,0,0
+cross,dual vs Dolcetto (different libraries),CD151,0,0,0
+cross,dual vs Dolcetto (different libraries),CD151,0,0,0
+cross,dual vs Dolcetto (different libraries),PTMA,1,0,0
+cross,dual vs Dolcetto (different libraries),PTMA,1,1,0
+cross,dual vs Dolcetto (different libraries),PTMA,0,0,0
+cross,dual vs Dolcetto (different libraries),PTMA,0,0,0
+cross,dual vs Dolcetto (different libraries),PTMA,0,0,0
+cross,dual vs Dolcetto (different libraries),PTMA,0,0,0
+cross,dual vs Dolcetto (different libraries),FOXRED1,0,0,0
+cross,dual vs Dolcetto (different libraries),FOXRED1,0,0,0
+cross,dual vs Dolcetto (different libraries),FOXRED1,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),USP47,0,0,0
+cross,dual vs Dolcetto (different libraries),RBBP4,0,0,0
+cross,dual vs Dolcetto (different libraries),RBBP4,0,0,0
+cross,dual vs Dolcetto (different libraries),RBBP4,2,1,0
+cross,dual vs Dolcetto (different libraries),RBBP4,2,0,1
+cross,dual vs Dolcetto (different libraries),RBBP4,0,0,0
+cross,dual vs Dolcetto (different libraries),RBBP4,0,0,0

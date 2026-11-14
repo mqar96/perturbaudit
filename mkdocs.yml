@@ -1,0 +1,10 @@
+site_name: perturbaudit
+site_description: Internal-control falsification of causal gene networks inferred from Perturb-seq
+repo_url: https://github.com/mqar96/perturbaudit
+nav:
+  - Home: index.md
+  - Quick start: quickstart.md
+  - Verdicts: verdicts.md
+  - Off-target maps: offtarget-maps.md
+  - Python API: api.md
+  - Limits: limits.md
