@@ -1,7 +1,7 @@
 """Audit every W_<method>.npy in a panel with perturbaudit.api. Usage: audit_panel_api.py PANEL_DIR [TOP_K]"""
 import sys, glob, os, json
 import numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit.screen import Screen
 from perturbaudit.api import audit_network
 from perturbaudit import proximity

@@ -1,5 +1,5 @@
 import sys, gzip, re, json, numpy as np, pandas as pd, anndata as ad
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import decoy
 
 tss_id, tss_nm = {}, {}

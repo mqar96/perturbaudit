@@ -1,6 +1,6 @@
 import io, os, sys, subprocess, json
 import h5py, numpy as np, pandas as pd
-sys.path.insert(0, "research/scripts")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from httpfile import HTTPRangeFile
 
 URL = "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.DE_stats.by_guide.h5mu"

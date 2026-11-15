@@ -7,6 +7,18 @@ authors:
     given-names: Muhammad Qudduse Ahmad
     orcid: "https://orcid.org/0009-0001-8731-7080"
     affiliation: "Independent Researcher, Lahore, Pakistan"
-version: 0.2.0
+version: 0.2.1
 license: MIT
 repository-code: "https://github.com/mqar96/perturbaudit"
+doi: 10.5281/zenodo.24221718
+date-released: "2026-11-14"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24221718
+    description: "Software archive (v0.2.1)"
+  - type: doi
+    value: 10.5281/zenodo.24220327
+    description: "Data record 1 (CC BY 4.0)"
+  - type: doi
+    value: 10.5281/zenodo.24221716
+    description: "Data record 2, derived from X-Atlas/Orion (CC BY-NC-SA 4.0)"

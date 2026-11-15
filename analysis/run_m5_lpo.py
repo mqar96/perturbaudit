@@ -5,7 +5,6 @@ training screen only, then ask what each network implies for knocking down the h
 Usage: run_m5_lpo.py PANEL_DIR METHOD [TOP_K=300] [FOLDS=10]"""
 import sys, os, json, time
 import numpy as np, pandas as pd
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "src"))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from perturbaudit.screen import Screen
 from perturbaudit.api import audit_network
@@ -44,7 +43,12 @@ rows = []
 for f, held in enumerate(folds):
     held = set(held); tr = ~np.isin(lab, list(held))
     t = time.time()
-    W = np.nan_to_num(np.abs(np.asarray(fn(X[tr], lab[tr].astype(object), names), dtype=float)))
+    wf = f"{D}/lpo_W/{M}_fold{f}.npy"  # fold networks do not depend on the audit; cache them
+    if os.path.exists(wf):
+        W = np.load(wf)
+    else:
+        W = np.nan_to_num(np.abs(np.asarray(fn(X[tr], lab[tr].astype(object), names), dtype=float)))
+        os.makedirs(os.path.dirname(wf), exist_ok=True); np.save(wf, W)
     np.fill_diagonal(W, 0)
     sc = Screen(X[tr], lab[tr], names)
     E, _ = audit_network(sc, W, names, top_k=K, n_decoys=100, seed=f)

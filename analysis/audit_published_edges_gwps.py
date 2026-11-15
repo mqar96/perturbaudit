@@ -1,9 +1,11 @@
 """Audit a published edge list against the K562 genome-wide screen's own knockdowns (pseudo-bulk).
 z(parent KD -> child) = normalized bulk value x sqrt(n cells) (Replogle bulk values are per-cell z-normalized means
-relative to non-targeting cells, so this is the knockdown z-statistic). Same verdict rules as perturbaudit.api.
+relative to non-targeting cells, so this is the knockdown z-statistic). Simplified rules, narrower than
+perturbaudit.api: support = |z| >= 3 only (no decoy q-values), reversal = child knockdown |z| >= 5 (no q), neighbour
+check only; no off-target, guide or stability checks.
 Usage: audit_published_edges_gwps.py EDGES_CSV PARENT_COL CHILD_COL OUT_PREFIX [filter_expr]"""
 import sys, numpy as np, pandas as pd, anndata as ad
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import proximity
 E = pd.read_csv(sys.argv[1]); pc, cc, out = sys.argv[2], sys.argv[3], sys.argv[4]
 if len(sys.argv) > 5: E = E.query(sys.argv[5])

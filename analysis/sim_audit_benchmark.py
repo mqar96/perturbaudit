@@ -3,7 +3,7 @@ For each scenario x replicate x method: precision of all top-k edges, of audited
 and the fraction of true edges in the top-k that the audit keeps.
 Usage: sim_audit_benchmark.py REPS [methods]"""
 import sys, os, json, time, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src"); sys.path.insert(0, "perturbaudit/scripts")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from perturbaudit import sim
 from perturbaudit.screen import Screen
 from perturbaudit.api import audit_network
@@ -11,7 +11,7 @@ import run_method as RM
 
 REPS = int(sys.argv[1]) if len(sys.argv) > 1 else 20
 METHODS = sys.argv[2].split(",") if len(sys.argv) > 2 else ["tce", "inspre", "gbm_grn", "dotears"]
-OUT = "derived/sim_audit"; os.makedirs(OUT, exist_ok=True)
+OUT = os.environ.get("SIM_AUDIT_OUT", "derived/sim_audit"); os.makedirs(OUT, exist_ok=True)
 SETTINGS = {"clean": {}, "confounded": {"lat_scale": 1.2}, "offtarget15": {"off_frac": 0.15},
             "inactive30": {"inactive_frac": 0.3}, "misassign5": {"misassign": 0.05}, "offtarget15_withM4": {"off_frac": 0.15}}
 ONLY = os.environ.get("ONLY_SETTINGS")
@@ -34,10 +34,15 @@ for sname, kw in SETTINGS.items():
         for m in METHODS:
             if (sname, rep, m) in done: continue
             t = time.time()
-            try:
-                W = {"tce": RM.run_tce, "inspre": RM.run_inspre, "gbm_grn": RM.run_gbm_grn, "dotears": RM.run_dotears}[m](X, lab.astype(object), names)
-            except Exception as e:
-                print("fail", sname, rep, m, str(e)[:80], flush=True); continue
+            wf = f"{OUT}/W/{seed_name}_r{rep}_{m}.npy"  # networks do not depend on the audit; cache them
+            if os.path.exists(wf):
+                W = np.load(wf)
+            else:
+                try:
+                    W = {"tce": RM.run_tce, "inspre": RM.run_inspre, "gbm_grn": RM.run_gbm_grn, "dotears": RM.run_dotears}[m](X, lab.astype(object), names)
+                except Exception as e:
+                    raise RuntimeError(f"{m} failed on {sname} rep {rep}") from e
+                os.makedirs(os.path.dirname(wf), exist_ok=True); np.save(wf, np.asarray(W, dtype=float))
             W = np.nan_to_num(np.abs(np.asarray(W, dtype=float)))
             E, _ = audit_network(sc, W, names, top_k=K, n_decoys=100, seed=rep, offtarget_map=otm)
             truth = desc if m == "tce" else direct

@@ -1,3 +1,5 @@
+import os
+WRAPPERS = os.environ.get("PERTURBAUDIT_WRAPPERS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wrappers"))
 import sys, os, time, json, numpy as np, pandas as pd
 
 def load(panel_dir):
@@ -90,7 +92,7 @@ def run_inspre(X, labels, names):
     tmp = tempfile.mkdtemp()
     pd.DataFrame(X, columns=[str(n) for n in names]).to_csv(f"{tmp}/X.csv", index=False)
     open(f"{tmp}/targets.txt", "w").write("\n".join(str(l) for l in labels))
-    subprocess.run(["Rscript", "perturbaudit/wrappers/run_inspre.R", f"{tmp}/X.csv", f"{tmp}/targets.txt", f"{tmp}/score.tsv"], check=True)
+    subprocess.run(["Rscript", os.path.join(WRAPPERS, "run_inspre.R"), f"{tmp}/X.csv", f"{tmp}/targets.txt", f"{tmp}/score.tsv"], check=True)
     S = pd.read_csv(f"{tmp}/score.tsv", sep="\t", index_col=0)
     W = np.zeros((len(names), len(names)))
     pos = {str(n): i for i, n in enumerate(names)}
@@ -106,7 +108,7 @@ def run_adapre(X, labels, names):
     tmp = tempfile.mkdtemp()
     pd.DataFrame(X, columns=[str(n) for n in names]).to_csv(f"{tmp}/X.csv", index=False)
     open(f"{tmp}/targets.txt", "w").write("\n".join(str(l) for l in labels))
-    subprocess.run(["Rscript", "perturbaudit/wrappers/run_adapre.R", f"{tmp}/X.csv", f"{tmp}/targets.txt", f"{tmp}/score.tsv"], check=True)
+    subprocess.run(["Rscript", os.path.join(WRAPPERS, "run_adapre.R"), f"{tmp}/X.csv", f"{tmp}/targets.txt", f"{tmp}/score.tsv"], check=True)
     S = pd.read_csv(f"{tmp}/score.tsv", sep="\t", index_col=0)
     W = np.zeros((len(names), len(names))); pos = {str(n): i for i, n in enumerate(names)}
     for r in S.index:
@@ -139,7 +141,7 @@ def _run_r_graph(X, labels, names, mode, panel_dir, keep):
     pd.DataFrame(X, columns=[str(n) for n in names]).to_csv(f"{tmp}/X.csv", index=False)
     np.savetxt(f"{tmp}/umi.txt", umi, fmt="%.0f")
     open(f"{tmp}/grp.txt", "w").write("\n".join(str(l) for l in labels))
-    subprocess.run(["Rscript", "perturbaudit/wrappers/run_causalgrn.R", f"{tmp}/X.csv", f"{tmp}/umi.txt", f"{tmp}/grp.txt", f"{tmp}/A.tsv", mode], check=True)
+    subprocess.run(["Rscript", os.path.join(WRAPPERS, "run_causalgrn.R"), f"{tmp}/X.csv", f"{tmp}/umi.txt", f"{tmp}/grp.txt", f"{tmp}/A.tsv", mode], check=True)
     S = pd.read_csv(f"{tmp}/A.tsv", sep="\t", index_col=0)
     pos = {str(n): i for i, n in enumerate(names)}
     W = np.zeros((len(names), len(names)))

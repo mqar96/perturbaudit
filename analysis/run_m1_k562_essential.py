@@ -1,5 +1,5 @@
 import json, sys, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import decoy
 
 D = "derived/k562_essential"

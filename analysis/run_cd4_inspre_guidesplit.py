@@ -1,3 +1,5 @@
+import os
+WRAPPERS = os.environ.get("PERTURBAUDIT_WRAPPERS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wrappers"))
 import sys, os, json, subprocess, tempfile, shutil, numpy as np, pandas as pd
 
 P = int(sys.argv[1]) if len(sys.argv) > 1 else 300
@@ -64,7 +66,7 @@ for k in ["guide1", "guide2", "donorsA", "donorsB"]:
     tmp = tempfile.mkdtemp()
     pd.DataFrame(R, index=genes, columns=genes).to_csv(f"{tmp}/R.tsv", sep="\t")
     pd.DataFrame(se, index=genes, columns=genes).to_csv(f"{tmp}/SE.tsv", sep="\t")
-    subprocess.run(["Rscript", "perturbaudit/wrappers/run_inspre_from_R.R", f"{tmp}/R.tsv", f"{tmp}/SE.tsv", f"{tmp}/S.tsv", f"{OUT}/lambda.txt"], check=True, capture_output=True)
+    subprocess.run(["Rscript", os.path.join(WRAPPERS, "run_inspre_from_R.R"), f"{tmp}/R.tsv", f"{tmp}/SE.tsv", f"{tmp}/S.tsv", f"{OUT}/lambda.txt"], check=True, capture_output=True)
     S = pd.read_csv(f"{tmp}/S.tsv", sep="\t", index_col=0).reindex(index=genes, columns=genes).fillna(0).values
     shutil.rmtree(tmp)
     np.fill_diagonal(S, 0)

@@ -1,5 +1,5 @@
 """perturbaudit: internal-control falsification of causal gene networks inferred from Perturb-seq."""
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 from .screen import Screen
 from .api import audit_network, summarize
 from . import seedscan, decoy, proximity, report

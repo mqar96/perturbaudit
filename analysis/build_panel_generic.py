@@ -3,7 +3,7 @@ Usage: build_panel_generic.py H5AD OUTDIR P [--pert-col perturbation] [--control
        [--batch-col gemgroup] [--max-cells 300] [--max-ctrl 5000] [--min-cells 30] [--kd-z 3] [--counts auto]"""
 import argparse, json, os, sys
 import numpy as np, pandas as pd, scipy.sparse as sp, anndata as ad
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit.screen import Screen
 from perturbaudit import proximity
 

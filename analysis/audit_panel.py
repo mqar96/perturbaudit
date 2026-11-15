@@ -1,5 +1,5 @@
 import sys, json, glob, os, numpy as np, pandas as pd
-sys.path.insert(0, 'perturbaudit/src')
+
 from perturbaudit import heldout
 
 panel_dir = sys.argv[1]

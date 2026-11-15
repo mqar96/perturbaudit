@@ -3,7 +3,8 @@ import numpy as np
 import pandas as pd
 from . import decoy, proximity, offtarget, guidesplit
 
-VERDICT_ORDER = ["untestable_parent_not_perturbed", "untestable_child_not_measured", "untestable_ineffective_knockdown",
+VERDICT_ORDER = ["untestable_parent_not_perturbed", "untestable_child_not_measured", "untestable_no_reference",
+                 "untestable_ineffective_knockdown",
                  "reversed", "unsupported", "offtarget", "neighbour", "guide_specific", "unstable", "audited"]
 
 
@@ -28,10 +29,22 @@ def network_to_edges(network, names=None, top_k=None):
 
 def audit_network(screen, network, names=None, top_k=None, support_z=3.0, support_q=0.05, reverse_z=5.0,
                   kd_min_abs_z=2.0, n_decoys=200, seed=0, tss=None, neighbour_window=10_000, offtarget_map=None,
-                  replicate_networks=None, stability_min=0.5, guide_disc_z=3.0, guide_het_q=0.05):
-    """Return (edges, summary). Each edge gets the evidence columns and one `verdict` (first failing check in
-    VERDICT_ORDER). Support = |knockdown z| >= support_z OR decoy-calibrated q <= support_q (both directions use
-    the same batch-matched non-targeting reference)."""
+                  replicate_networks=None, stability_min=0.5, guide_disc_z=3.0, guide_het_p=0.05, guide_het_q=None):
+    """Return (edges, summary). Each edge gets evidence columns and one `verdict`: the first failing check in
+    VERDICT_ORDER. All evidence is total-effect evidence from the screen's own knockdowns.
+
+    - supported: |z(parent KD on child)| >= support_z, or decoy q <= support_q. The decoy q is a diagnostic
+      calibrated against batch-matched non-targeting decoys; it is not an error guarantee for selected edges.
+    - reversed: unsupported, and the child's knockdown moves the parent (|z| >= reverse_z and q <= support_q).
+      This is evidence for scrutiny, not proof that the true causal direction is reversed.
+    - kd_status: 'effective', 'ineffective' (|own-target z| < kd_min_abs_z) or 'not_measured' (the parent's own
+      transcript is not in the matrix). An ineffective knockdown makes an unsupported edge untestable; a
+      supported edge stays supported, because its child moved.
+    - checks_run lists which optional checks could be applied (offtarget, neighbour, guide, stability); an
+      'audited' edge has passed every check listed there and none that is missing.
+    - guide_het_p is an unadjusted heterogeneity P value (guide_het_q is accepted as a deprecated alias)."""
+    if guide_het_q is not None:
+        guide_het_p = guide_het_q
     E = network_to_edges(network, names, top_k)
     Zr, Zd = screen.decoys(n_decoys=n_decoys, seed=seed)  # half-reference z: used only for decoy-calibrated q
     Zfull = screen.effects()  # full-reference z: used for the |z| support/reversal thresholds (more power)
@@ -53,7 +66,12 @@ def audit_network(screen, network, names=None, top_k=None, support_z=3.0, suppor
     E["parent_knockdown_z"] = kd_p
     E["parent_perturbed"] = E.parent.astype(str).isin(perturbed)
     E["child_measured"] = E.child.astype(str).isin(meas)
-    E["kd_effective"] = ~(np.abs(E.parent_knockdown_z) < kd_min_abs_z)  # direction-agnostic (CRISPRi/a/KO); NaN = parent not measured, treated as testable
+    E["kd_status"] = np.where(E.parent_knockdown_z.isna(), "not_measured",
+                              np.where(np.abs(E.parent_knockdown_z) < kd_min_abs_z, "ineffective", "effective"))
+    E["kd_effective"] = E.kd_status != "ineffective"
+    noref = getattr(screen, "no_reference_groups", set())
+    E["reference_ok"] = ~((E.parent_perturbed & E.child_measured & E.z_parent_kd_on_child.isna())
+                          | E.parent.astype(str).isin(noref))
     sup = (np.abs(E.z_parent_kd_on_child) >= support_z) | (E.q_parent_kd_on_child <= support_q)
     E["supported"] = sup.fillna(False)
     rev = (np.abs(E.z_child_kd_on_parent) >= reverse_z) & (E.q_child_kd_on_parent <= support_q)
@@ -79,7 +97,9 @@ def audit_network(screen, network, names=None, top_k=None, support_z=3.0, suppor
             z1, z2 = Zg.at[gs[0], b], Zg.at[gs[1], b]
             _, p = guidesplit.heterogeneity(np.array([z1]), np.array([z2]), np.array([ng[gs[0]]]), np.array([ng[gs[1]]]))
             p = float(np.ravel(p)[0])
-            spec.append(bool(max(abs(z1), abs(z2)) >= guide_disc_z and min(abs(z1), abs(z2)) < 1.0 and p < guide_het_q))
+            if not (np.isfinite(z1) and np.isfinite(z2)):
+                spec.append(np.nan); ztxt.append(""); continue
+            spec.append(bool(max(abs(z1), abs(z2)) >= guide_disc_z and min(abs(z1), abs(z2)) < 1.0 and p < guide_het_p))
             ztxt.append(f"{z1:.1f}|{z2:.1f}")
         E["guide_z"] = ztxt
         E["guide_specific"] = spec
@@ -90,11 +110,22 @@ def audit_network(screen, network, names=None, top_k=None, support_z=3.0, suppor
             s = set(zip(Er.parent.astype(str), Er.child.astype(str)))
             hits += np.array([(a, b) in s for a, b in zip(E.parent.astype(str), E.child.astype(str))])
         E["stability"] = hits / len(replicate_networks)
+    checks = []
+    for r in E.to_dict("records"):
+        c = []
+        if offtarget_map is not None: c.append("offtarget")
+        if tss is not None: c.append("neighbour")
+        if "guide_specific" in r and r["guide_specific"] == r["guide_specific"]: c.append("guide")
+        if "stability" in r: c.append("stability")
+        checks.append(",".join(c))
+    E["checks_run"] = checks
     E["verdict"] = pd.Series([_verdict(r, stability_min) for r in E.to_dict("records")], index=E.index, dtype=object)
     return E, summarize(E)
 
 
 def _verdict(r, stability_min):
+    if not r.get("reference_ok", True):
+        return "untestable_no_reference"
     if not r["parent_perturbed"]:
         return "untestable_parent_not_perturbed"
     if not r["child_measured"]:

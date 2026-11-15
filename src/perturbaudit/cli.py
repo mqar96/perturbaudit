@@ -14,6 +14,7 @@ def main(argv=None):
     a.add_argument("--perturbation-col", required=True, help="obs column with the targeted gene per cell")
     a.add_argument("--control-label", default="non-targeting")
     a.add_argument("--batch-col", help="obs column with batch / GEM group (controls are batch-matched)")
+    a.add_argument("--min-ref-cells", type=int, default=20, help="minimum control cells per batch for a valid reference")
     a.add_argument("--guide-col", help="obs column with guide identity (enables the independent-guide check)")
     a.add_argument("--gene-col", help="var column with gene symbols (default: var_names)")
     a.add_argument("--layer")
@@ -60,7 +61,8 @@ def main(argv=None):
 
     names = [l.strip() for l in open(args.names)] if args.names else None
     adata = ad.read_h5ad(args.h5ad)
-    sc = Screen.from_anndata(adata, args.perturbation_col, args.control_label, args.batch_col, args.guide_col, args.layer, args.gene_col)
+    sc = Screen.from_anndata(adata, args.perturbation_col, args.control_label, args.batch_col, args.guide_col, args.layer, args.gene_col,
+                             min_ref_cells=args.min_ref_cells)
     tss = proximity.load_tss_gtf(args.gtf) if args.gtf else None
     otm = None
     if args.offtarget:
@@ -78,6 +80,11 @@ def main(argv=None):
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     E.to_csv(f"{args.out}_edges.csv", index=False)
     S.to_csv(f"{args.out}_summary.csv", index=False)
+    cov_b, cov_g = sc.reference_coverage()
+    cov_b.to_csv(f"{args.out}_reference_coverage.csv", index=False)
+    if (~cov_b.reference_ok).any():
+        print(f"WARNING: {int((~cov_b.reference_ok).sum())} batch(es) have fewer than {args.min_ref_cells} control cells; "
+              f"edges whose parent has cells there are 'untestable_no_reference'. See {args.out}_reference_coverage.csv")
     json.dump({k: v for k, v in vars(args).items()}, open(f"{args.out}_params.json", "w"), indent=1)
     if args.html:
         from .report import html_report

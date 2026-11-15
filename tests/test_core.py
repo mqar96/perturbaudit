@@ -200,3 +200,97 @@ def test_audit_anndata_and_promoters(tmp_path):
     n = pa.seedscan.promoter_windows(str(fa), str(gtf), str(tmp_path / "p.tsv"), window=100)
     row = open(tmp_path / "p.tsv").read().split("\t")
     assert n == 1 and row[0] == "GENEX" and len(row[4].strip()) == 201  # TSS +/- 100, inclusive
+
+
+def _two_batch_screen(ctrl_batch_b=0, seed=0, constant_gene=False):
+    import numpy as np
+    rng = np.random.default_rng(seed)
+    n_c, n_p = 400, 60
+    X = rng.normal(5, 1, (n_c + 2 * n_p, 6)).clip(0)
+    labels = np.array(["non-targeting"] * n_c + ["A"] * n_p + ["B"] * n_p)
+    batch = np.array(["b1"] * (n_c - ctrl_batch_b) + ["b2"] * ctrl_batch_b + ["b2"] * n_p + ["b1"] * n_p)
+    if constant_gene:
+        X[:, 5] = 0.0; X[n_c:n_c + n_p, 5] = 1.0
+    return X, labels, batch, ["A", "B", "g2", "g3", "g4", "g5"]
+
+
+def test_missing_batch_reference_is_untestable_not_audited():
+    import numpy as np
+    from perturbaudit.screen import Screen
+    from perturbaudit.api import audit_network
+    X, labels, batch, names = _two_batch_screen(ctrl_batch_b=0)
+    sc = Screen(X, labels, names, batch=batch)
+    Z = sc.effects()
+    assert "A" not in Z.index and np.isfinite(Z.loc["B"]).all() and "A" in sc.no_reference_groups
+    E, S = audit_network(sc, __import__("pandas").DataFrame(dict(parent=["A", "B"], child=["g2", "g2"])), n_decoys=50)
+    v = dict(zip(E.parent, E.verdict))
+    assert v["A"] == "untestable_no_reference" and v["B"] != "audited"
+    cb, cg = sc.reference_coverage()
+    assert not cb.set_index("batch").reference_ok["b2"]
+    assert int(cg.set_index("group").cells_without_reference["A"]) == 60 and not cg.set_index("group").testable["A"]
+
+
+def test_sparse_and_constant_references():
+    import numpy as np
+    from perturbaudit.screen import Screen
+    X, labels, batch, names = _two_batch_screen(ctrl_batch_b=10)
+    Z = Screen(X, labels, names, batch=batch).effects()
+    assert "A" not in Z.index
+    X, labels, batch, names = _two_batch_screen(ctrl_batch_b=200, constant_gene=True)
+    Z = Screen(X, labels, names, batch=batch).effects()
+    assert np.isnan(Z.loc["A", "g5"]) and np.isfinite(Z.loc["A", "g2"])
+
+
+def test_missing_batch_labels_rejected():
+    import numpy as np, pytest
+    from perturbaudit.screen import Screen
+    X, labels, batch, names = _two_batch_screen(ctrl_batch_b=200)
+    batch = batch.astype(object); batch[3] = None
+    with pytest.raises(ValueError):
+        Screen(X, labels, names, batch=batch)
+
+
+def test_public_decoys_are_batch_matched_and_null():
+    import numpy as np
+    from perturbaudit.screen import Screen
+    rng = np.random.default_rng(1)
+    n_c = 3000
+    batch = np.r_[np.repeat(["b1", "b2", "b3"], [2000, 700, 300]), np.repeat(["b1", "b3"], [80, 80])]
+    shift = {"b1": 0.0, "b2": 1.0, "b3": 2.5}
+    X = rng.normal(5, 1, (len(batch), 8)) + np.array([shift[b] for b in batch])[:, None]
+    labels = np.r_[["non-targeting"] * n_c, ["P1"] * 80, ["P2"] * 80]
+    sc = Screen(X, labels, list("abcdefgh"), batch=batch)
+    Zr, Zd = sc.decoys(n_decoys=200, seed=2)
+    nb = {"P1": [80, 0, 0], "P2": [0, 0, 80]}
+    assert set(sc.decoy_info["templates"]) <= {"P1", "P2"}
+    z = Zd.values.ravel()
+    assert abs(z.mean()) < 0.3 and 0.75 < z.std() < 1.3
+    assert np.abs(Zr.values).max() < 5
+
+
+def test_cli_writes_reference_coverage(tmp_path):
+    import numpy as np, pandas as pd, anndata as ad
+    from perturbaudit.cli import main
+    X, labels, batch, names = _two_batch_screen(ctrl_batch_b=0)
+    a = ad.AnnData(X.astype(np.float32)); a.var_names = names; a.obs["gene"] = labels; a.obs["gem"] = batch
+    a.write_h5ad(tmp_path / "s.h5ad")
+    pd.DataFrame(dict(parent=["A", "B"], child=["g2", "g3"])).to_csv(tmp_path / "n.csv", index=False)
+    main(["audit", "--h5ad", str(tmp_path / "s.h5ad"), "--network", str(tmp_path / "n.csv"), "--perturbation-col", "gene",
+          "--batch-col", "gem", "--n-decoys", "50", "--out", str(tmp_path / "r")])
+    cov = pd.read_csv(tmp_path / "r_reference_coverage.csv")
+    E = pd.read_csv(tmp_path / "r_edges.csv")
+    assert (~cov.reference_ok).sum() == 1 and (E.verdict == "audited").sum() == 0
+
+
+def test_partial_reference_excludes_only_unreferenced_cells():
+    import numpy as np
+    from perturbaudit.screen import Screen
+    rng = np.random.default_rng(4)
+    X = rng.normal(5, 1, (560, 4))
+    labels = np.array(["non-targeting"] * 400 + ["A"] * 80 + ["B"] * 80)
+    batch = np.array(["b1"] * 400 + ["b1"] * 50 + ["b2"] * 30 + ["b1"] * 80)
+    sc = Screen(X, labels, list("ABcd"), batch=batch)
+    cb, cg = sc.reference_coverage()
+    g = cg.set_index("group")
+    assert g.cells_used["A"] == 50 and g.cells_without_reference["A"] == 30 and g.testable["A"]
+    assert np.isfinite(sc.effects().loc["A"]).all()

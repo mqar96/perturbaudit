@@ -1,5 +1,5 @@
 import sys, json, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import guidesplit as gs
 
 D = "derived/cd4_by_guide"

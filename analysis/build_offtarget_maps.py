@@ -3,7 +3,7 @@ For every guide: genes (other than the target) with a seed match >= MIN nt at an
 basic transcript TSS; flags pairs within 1 Mb of the target (neighbour check covers those); adds the knock-down rate
 observed for that seed length in two genome-wide Perturb-seq screens (HCT116 Xaira, K562 GWPS; gene-column bottom 0.5%)."""
 import sys, gzip, re, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import seedscan as ss
 MIN = 10; OUT = "derived/offtarget_maps"; import os; os.makedirs(OUT, exist_ok=True)
 L = "data/libs/"; T = "data/ScreenProcessing/library_tables/"

@@ -17,9 +17,11 @@ Raw screens are public and are not redistributed here. Analysis scripts expect t
 | Guide libraries | Weissman lab ScreenProcessing (GitHub); eLife 81856 Supplementary file 1 | per source |
 | GENCODE v43 basic GTF; hg38 genome | GENCODE; UCSC | public |
 
-Scripts by result (in `analysis/`): panels `build_panel_*.py`, `extract_gwps_panel.py`; methods `run_method.py`; audits
-`audit_panel_api.py`; chance baseline `pair_baseline.py`; transfer `run_transfer_generic.py`; robustness `run_m5_lpo.py`,
+Scripts by result (in `analysis/`): panels `build_panel_*.py`, `extract_gwps_panel.py`; methods `run_method.py`; frozen top-50 audits and
+all-pairs chance baseline `freeze_audits.py`; matched transfer `transfer_matched.py`; robustness `run_m5_lpo.py`,
 `run_m6_stress.py`; simulations `sim_*.py`; guide replication `elife_*.py`; HCT116 `run_m3_hct116.py`,
 `m4_genomewide_hct116.py`; genome-wide seed test `m4_genomewide_gwps.py`; maps `build_promoter_windows.py`,
-`build_offtarget_maps.py`; cross-platform `cross_platform.py`; high-confidence edges `hc_edges.py`; prediction-model audit
-`vcm_audit.py`; figures `fig_*.py`. Every result file's sha256, inputs and code version are listed in `PROVENANCE.csv` on Zenodo.
+`build_offtarget_maps.py`; target-line effect matrices `rpe1_effects.py`, `nadig_effects.py`, `orion_hct116.py`, `orion_post.py`,
+`make_hct116_panel_effects.py`; cross-platform `cross_platform.py`; high-confidence edges `hc_edges.py`; prediction-model audit
+`vcm_audit.py`; figures `fig_*.py`, `make_fig34.py`. Every result file's sha256, producing script, inputs and code version are listed in `PROVENANCE.csv` in each Zenodo
+record (`analysis/make_provenance.py`); `REPRODUCE.md` gives the exact commands.

@@ -2,7 +2,7 @@
 Strong K562 pairs (|z| >= 5, parent != child) in the GWPS 788-gene panel; replication = same sign and |z| >= 3 in the target.
 Stratified by K562 effect size, by the parent's own knock-down strength in the target line, and by child expression."""
 import sys, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit.screen import Screen
 z = np.load("derived/panels/gwps_p788/panel.npz", allow_pickle=True)
 X, lab, names = z["X"].astype(np.float64), z["labels"].astype(str), [str(n) for n in z["names"]]

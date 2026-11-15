@@ -45,7 +45,7 @@ if is_counts:
     out = np.log1p(out / np.maximum(tot[:, None], 1) * 1e4).astype(np.float32)
 np.savez_compressed(f"{OUT}/panel.npz", X=out, labels=np.array(lab, dtype=object), names=np.array(gorder, dtype=object),
                     umi=umi[rows], guides=np.array(guide[rows], dtype=object), batch=np.array(batch[rows].astype(str), dtype=object))
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import proximity
 tss = proximity.load_tss_gtf("data/annot/gencode.v43.basic.gtf.gz")
 near = [(x, y, int(proximity.tss_distance(x, y, tss))) for i, x in enumerate(gorder) for y in gorder[i + 1:] if proximity.tss_distance(x, y, tss) < 10000]

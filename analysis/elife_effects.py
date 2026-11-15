@@ -2,7 +2,7 @@
 batch-matched null-variance z for the top expressed genes + all targeted genes. Writes <out>.npz.
 Usage: elife_effects.py PREFIX OUT [n_top_genes=4000]"""
 import sys, numpy as np, pandas as pd, gzip
-sys.path.insert(0, "perturbaudit/src")
+
 pre, out = sys.argv[1], sys.argv[2]; NTOP = int(sys.argv[3]) if len(sys.argv) > 3 else 4000
 feat = pd.read_csv(f"{pre}.features.tsv.gz", sep="\t", header=None); genes = feat[1].astype(str).values
 bc = pd.read_csv(f"{pre}.barcodes.tsv.gz", header=None)[0].astype(str).values

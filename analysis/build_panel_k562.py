@@ -5,7 +5,7 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else "derived/panels/k562_p100"
 P_TARGET = int(sys.argv[2]) if len(sys.argv) > 2 else 100
 K_DECOY = int(sys.argv[3]) if len(sys.argv) > 3 else 20
 import os; os.makedirs(OUT, exist_ok=True)
-sys.path.insert(0, 'perturbaudit/src')
+
 from perturbaudit import sim
 K_KNOCK = int(sys.argv[4]) if len(sys.argv) > 4 else 0
 rng = np.random.default_rng(int(os.environ.get('PANEL_SEED', '7')))

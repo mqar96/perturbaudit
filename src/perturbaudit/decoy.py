@@ -79,8 +79,22 @@ def target_decoy_fdr(real_scores, decoy_scores, thresholds):
 
 
 def qvalues(real_scores, decoy_scores):
-    real = np.asarray(real_scores, dtype=np.float64).ravel()
-    dec = np.sort(np.asarray(decoy_scores, dtype=np.float64).ravel())
+    """Target-decoy q-values for larger-is-more-significant scores. Non-finite real scores get NaN;
+    non-finite decoy scores are dropped."""
+    allreal = np.asarray(real_scores, dtype=np.float64).ravel()
+    fin = np.isfinite(allreal)
+    out = np.full(len(allreal), np.nan)
+    if not fin.any():
+        return out
+    dec = np.asarray(decoy_scores, dtype=np.float64).ravel()
+    dec = np.sort(dec[np.isfinite(dec)])
+    if len(dec) == 0:
+        return out
+    out[fin] = _qvalues_finite(allreal[fin], dec)
+    return out
+
+
+def _qvalues_finite(real, dec):
     order = np.argsort(-real)
     n_real, n_dec = len(real), len(dec)
     r_count = np.arange(1, n_real + 1)

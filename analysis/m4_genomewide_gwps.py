@@ -2,7 +2,7 @@
 x 8,248 genes). Scale-free statistic: rank of the matched gene's value within its own column (all perturbations).
 Expected bottom-0.5% rate with no seed effect: 0.5%."""
 import sys, numpy as np, pandas as pd, gzip, re, anndata as ad
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import seedscan as ss
 h = pd.read_csv("data/hartman/perturb_seed_reproduce/data/replogle_k562_2kb_filt_no_lfc_cutoff_off_target_candidates.csv.gz", low_memory=False, usecols=["guide_id", "gene", "protospacer_sequence"])
 G = h.dropna().drop_duplicates().rename(columns={"guide_id": "guide", "gene": "target", "protospacer_sequence": "protospacer"})

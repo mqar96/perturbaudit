@@ -1,0 +1,10 @@
+target,method,top_k,verdict,n_testable,forward_replicates,child_kd_moves_parent
+RPE1,inspre,500,audited,300,0.467,0.367
+RPE1,inspre,500,reversed,89,0.157,0.652
+RPE1,inspre,500,unsupported,101,0.248,0.267
+HepG2,inspre,500,audited,291,0.704,0.612
+HepG2,inspre,500,reversed,80,0.225,0.9
+HepG2,inspre,500,unsupported,100,0.32,0.41
+Jurkat,inspre,500,audited,300,0.82,0.62
+Jurkat,inspre,500,reversed,89,0.27,0.955
+Jurkat,inspre,500,unsupported,101,0.317,0.426

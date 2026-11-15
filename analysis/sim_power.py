@@ -3,12 +3,12 @@ Sensitivity = share of supported artefact edges (i -> off-target gene or its des
 of i) that the audit flags (M4 with the seed map; M2 guide-specific without it). Specificity side: share of
 supported TRUE-descendant edges wrongly flagged. Grid: off-target strength x cells per perturbation, REPS each."""
 import sys, os, zlib, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit.sim import random_dag
 from perturbaudit.screen import Screen
 from perturbaudit.api import audit_network
 REPS = int(sys.argv[1]) if len(sys.argv) > 1 else 10
-OUT = "derived/sim_power.csv"; P = 40
+OUT = os.environ.get("SIM_POWER_OUT", "derived/sim_power.csv"); P = 40
 def screen(p, n_cells, strength, seed, off_frac=0.3, n_obs=4000, n_lat=4, lat_scale=0.6):
     rng = np.random.default_rng(seed); W = random_dag(p, 0.06, rng); L = rng.normal(0, lat_scale, (n_lat, p))
     T = np.linalg.inv(np.eye(p) - W)

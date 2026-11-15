@@ -1,5 +1,5 @@
 import sys, os, json, time, subprocess, numpy as np, pandas as pd
-sys.path.insert(0, "perturbaudit/src")
+
 from perturbaudit import sim
 
 OUT = os.environ.get("SIM_OUT", "derived/sim_calib2")
@@ -34,8 +34,11 @@ for sname, kw in settings.items():
         json.dump({"p_real": p, "k_decoy": K, "neighbour_pairs": [], "offtarget": {str(k): v for k, v in s["off"].items()}}, open(f"{d}/meta.json", "w"))
         for m in methods:
             if os.path.exists(f"{d}/W_{m}.npy"): continue
-            py = "venv312/bin/python" if m == "sdcd" else "python3"
-            subprocess.run([py, "perturbaudit/scripts/run_method.py", m, d], capture_output=True)
+            py = os.environ.get("SDCD_PYTHON", sys.executable) if m == "sdcd" else sys.executable
+            here = os.path.dirname(os.path.abspath(__file__))
+            res = subprocess.run([py, os.path.join(here, "run_method.py"), m, d], capture_output=True, text=True)
+            if res.returncode != 0 or not os.path.exists(f"{d}/W_{m}.npy"):
+                raise RuntimeError(f"run_method.py {m} failed on {d}:\n{res.stderr[-2000:]}")
         for m in methods:
             if not os.path.exists(f"{d}/W_{m}.npy"): continue
             Wm = np.abs(np.load(f"{d}/W_{m}.npy")); np.fill_diagonal(Wm, 0)
@@ -52,7 +55,7 @@ for sname, kw in settings.items():
                 true_fdp_desc = (sel & ~truth_desc).sum() / R
                 estp = min(1.0, ((odp >= t).sum() / (KP * p)) * (p * (p - 1)) / R)
                 estk = min(1.0, ((odk >= t).sum() / (KK * p)) * (p * (p - 1)) / R)
-                rows.append(dict(setting=sname, rep=rep, method=m, top_k=k, edges=int(R), true_FDP=round(true_fdp, 3),
+                rows.append(dict(p=p, setting=sname, rep=rep, method=m, top_k=k, edges=int(R), true_FDP=round(true_fdp, 3),
                                  true_FDP_vs_descendants=round(true_fdp_desc, 3), est_perm=round(estp, 3), est_knockoff=round(estk, 3)))
         pd.DataFrame(rows).to_csv(f"{OUT}/calibration_results.csv", index=False)
         print(sname, rep, "done", flush=True)

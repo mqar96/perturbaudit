@@ -1,0 +1,11 @@
+panel,batches,batches_without_reference,min_controls_per_batch,perturbed_cells,cells_excluded,groups_untestable
+adamson_p100,1,0,5000,22922,0,0
+gwps_p1434,267,6,3,85813,536,0
+gwps_p788,267,6,5,75357,469,0
+k562_p100cg,1,0,10691,12942,0,0
+k562_p300e,1,0,4691,36841,0,0
+k562_p50,1,0,10691,6218,0,0
+norman_p100,8,0,580,27635,0,0
+rpe1_p100e,1,0,5485,9083,0,0
+tian21a_p100,2,0,190,12657,0,0
+tian21i_p100,4,0,83,13308,0,0
